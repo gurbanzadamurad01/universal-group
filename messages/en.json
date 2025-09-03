@@ -1,0 +1,341 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "company": "Company",
+    "projects": "Projects",
+    "partners": "Partners",
+    "team": "Team",
+    "vacations": "Vacancies",
+    "careers": "Careers",
+    "clients": "Clients",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact Us"
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "hero": {
+    "title1": "Universal",
+    "title2": "Group",
+    "subtitle": "Trade Solutions",
+    "description": "Since 1998, we have become a symbol of trust in the industrial sector. 1200+ international suppliers, hundreds of brands, dozens of sectors. Universal Group stands out with strategic supply for B2B and B2G projects, flawless service model and full responsibility principle. Today, we are the power behind 150+ corporate customers.",
+    "ctaText": "Contact Us",
+    "ctaText2": "Our Products",
+    "location": "Baku, Azerbaijan",
+    "copyright": "© 2025 All rights reserved.",
+    "email": "info@universalgroup.az",
+    "phone1": "+994125266655",
+    "phone2": "+994515550555"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a leading company in engineering solutions and technical services."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive engineering and technical solutions for your business needs."
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "High-quality products and equipment for various industries."
+  },
+  "contact": {
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "location": "Baku, Azerbaijan"
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "Fill out the form and we will contact you as soon as possible",
+      "name": "Name and Surname",
+      "namePlaceholder": "Enter your name and surname",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "company": "Company",
+      "companyPlaceholder": "Enter company name",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select subject",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "successMessage": "✓ Your message has been sent successfully! We will contact you soon."
+    },
+    "subjects": {
+      "general": "General information",
+      "product": "Product inquiry",
+      "service": "Service inquiry",
+      "partnership": "Partnership proposal",
+      "support": "Technical support",
+      "other": "Other"
+    },
+    "map": {
+      "title": "Our location"
+    }
+  },
+  "footer": {
+    "tagline": "Expand Your Perspectives",
+    "description": "Your partner for decades with 25 years of experience providing international-level supply solutions. We meet our customers' needs at the highest level with a wide range of products and professional services.",
+    "experienceYears": "25 years of experience",
+    "location": "Azerbaijan",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "aboutUsDesc": "Our story",
+    "team": "Team",
+    "teamDesc": "Professional collective",
+    "careers": "Careers",
+    "careersDesc": "Career opportunities",
+    "projects": "Projects",
+    "projectsDesc": "Success stories",
+    "clients": "Clients",
+    "clientsDesc": "Our partners",
+    "contact": "Contact",
+    "office": "Office",
+    "mobile": "Mobile",
+    "email": "Email",
+    "headquarters": "Headquarters",
+    "address": "Baku, Azerbaijan",
+    "copyright": "© 2025 Universal Group. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "siteMap": "Site Map"
+  },
+  "cta": {
+    "title": "Want to collaborate with us?",
+    "description": "With our 25 years of experience and international standards, we are ready to contribute to the success of your projects",
+    "buttonText": "Contact Us"
+  },
+  "company": {
+    "bannerContent": {
+      "mainParagraph":"Today Universal Group QSC is a reliable partner of government institutions, oil and gas industry, construction and shipping sectors. Behind the major projects of our 150+ active corporate clients stands our strength, agility and flawless service model.",
+      "paragraph1": "As Universal Group, we have been operating in the Azerbaijan market since 1998. From the first day, our goal has been to bring the world's leading technologies to our country and strengthen our industry.",
+      "paragraph2": "After the rebranding we underwent in 2013, we started operating on a larger scale and today we are recognized as a brand that offers not only equipment, but also trust and values.",
+      "paragraph3": "We currently cooperate with more than 1200 international suppliers and our portfolio includes world-famous brands such as Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Lincoln Electric. We deliver our supply processes to production facilities, ports or directly to the field according to our customers' needs.",
+      "paragraph4": "Today Universal Group QSC is a reliable partner of government institutions, oil and gas industry, construction and shipping sectors. Behind the major projects of our 150+ active corporate clients stands our strength, agility and flawless service model.",
+      "mainParagraph1": "Founded in 1998 as \"Universal Makina,\" Universal Group began its operations as the official distributor for prestigious brands such as Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Çağsan, Lincoln Electric, and Rockwool. In 2013, the company rebranded to \"Universal Group\" and expanded its operations in the B2B/B2G segments.",
+      "mainParagraph2": "Today, Universal Group collaborates with over 1,200 international suppliers, offering a wide product portfolio sourced from both domestic and foreign markets—70% from abroad and 30% locally. Depending on project needs, the company delivers products from manufacturing sites, ports, or directly to the job site. The company distinguishes itself with a \"flawless service model,\" taking full responsibility for the entire supply process. We ensure that our customers receive the highest quality products and services, meeting their needs at the highest level.",
+      "mainParagraph3": "Currently, Universal Group is a trusted partner for over 150 corporate clients in the government, oil and gas, construction, and shipping sectors."
+    },
+    "advantages": {
+      "title1": "25+ Years Experience",
+      "description1": "Thanks to the experience gained over many years and international relations, we have become one of the leading supply companies in the country.",
+      "title2": "1200+ Suppliers",
+      "description2": "Our company, which operates on a large scale in B2B and B2C segments, works with more than 1200 international suppliers and has a wide product portfolio.",
+      "title3": "Quality Guarantee",
+      "description3": "70% of the supply is from abroad and 30% from the local market. All our products comply with international quality standards and are provided with warranty.",
+      "title4": "24/7 Support",
+      "description4": "We provide 24/7 support service to our customers. You can contact us if you have any problems or questions."
+    },
+    "missions": {
+      "sectionTitle": "Our Mission",
+      "sectionDescription": "Our main mission is to provide the highest quality service to our customers and offer solutions that comply with international standards.",
+      "title1": "Quality and Reliability",
+      "description1": "We gain the trust of our customers by providing products and services that comply with the highest quality standards.",
+      "title2": "International Standards",
+      "description2": "We implement compliance and certification processes with internationally recognized world-class standards.",
+      "title3": "Customer Satisfaction",
+      "description3": "Understanding our customers' needs and exceeding their expectations is our main priority."
+    },
+    "goals": {
+      "sectionTitle": "Our Goals",
+      "sectionDescription": "Strategic targets we plan to achieve by 2025 and our long-term vision.",
+      "title1": "Market Leader",
+      "description1": "To be the leading equipment company in the Azerbaijan market",
+      "title2": "Expansion",
+      "description2": "Expansion of activities in regional markets",
+      "title3": "Sustainability",
+      "description3": "Environmentally sustainable business model",
+      "title4": "Technology",
+      "description4": "Digital transformation and automation",
+      "targetLabel": "Target:"
+    },
+    "values": {
+      "sectionTitle": "Our Values",
+      "sectionDescription": "The main principles and values that guide our activities",
+      "title1": "Reliability",
+      "description1": "We remain true to our word in every project and are always a trusted supplier for our partners.",
+      "title2": "Quality",
+      "description2": "From product selection to delivery stage — we adhere to high standards in every detail.",
+      "title3": "Human Capital",
+      "description3": "We always support our employees to perform their work with enthusiasm, make innovations and achieve development both personally and professionally.",
+      "title4": "Professionalism",
+      "description4": "Our team combines technical knowledge and industry experience to provide solution-oriented service to our customers.",
+      "title5": "Transparency",
+      "description5": "We organize the procurement process in an open and traceable manner — accountability is important to us at every step."
+    },
+    "azlift": {
+      "mainText": "SINCE 2012, WE HAVE STARTED WITH RENT AND SALES OF LIFTING EQUIPMENT AND AERIAL WORKING PLATFORMS.",
+      "description1": "Azlift company has been operating in the field of rental and sales of lifting equipment and aerial platforms since 2012. Our company meets the needs of the industry with modern technologies and high-quality services.",
+      "description2": "Thanks to our experienced team and wide equipment park, we provide reliable solutions in various fields - construction, industry, oil and gas and other sectors.",
+      "experienceYears": "Years of experience",
+      "completedProjects": "Completed projects"
+    },
+    "azglobal": {
+      "title": "AZ GLOBAL LLC",
+      "description": "AZ Global LLC is a modern company operating in the field of international trade and logistics. We provide world-class services to our clients and are recognized as a reliable partner in international markets.",
+      "mainText": "AZ GLOBAL LLC IS A FLEXIBLE SUPPLY AND ENGINEERING COMPANY INVOLVED IN VARIOUS PROJECTS",
+      "description1": "AZ Global LLC is a modern company operating in the field of international trade and logistics. We provide world-class services to our clients.",
+      "description2": "We are recognized as a reliable partner in international markets and provide innovative solutions to meet our clients' needs."
+    }
+  },
+  "companyTabs": {
+    "missionVision": "Mission & Vision",
+    "timeline": "Timeline",
+    "aboutCompany": "About Company"
+  },
+  "missionVision": {
+    "title": "Mission & Vision",
+    "description": "Our core mission, strategic goals, and fundamental values that guide our company."
+  },
+  "timeline": {
+    "title": "Company Timeline",
+    "description": "Key milestones and achievements in our company's journey since 1998.",
+    "events": {
+      "1998": {
+        "title": "Company Foundation",
+        "description": "Universal Group was founded as Universal Makina, starting operations as an official distributor."
+      },
+      "2005": {
+        "title": "Market Expansion",
+        "description": "Expanded operations and established partnerships with major international brands."
+      },
+      "2012": {
+        "title": "Azlift Launch",
+        "description": "Launched Azlift division for lifting equipment and aerial platform rental and sales."
+      },
+      "2013": {
+        "title": "Rebranding",
+        "description": "Rebranded to Universal Group and expanded B2B/B2G operations significantly."
+      },
+      "2018": {
+        "title": "Digital Transformation",
+        "description": "Implemented modern digital systems and expanded online presence."
+      },
+      "2020": {
+        "title": "AZ Global Establishment",
+        "description": "Established AZ Global LLC for international trade and logistics operations."
+      },
+      "2025": {
+        "title": "Future Vision",
+        "description": "Continuing growth with 1200+ suppliers and 150+ corporate clients."
+      }
+    },
+    "stats": {
+      "experience": "Years of Experience",
+      "suppliers": "International Suppliers",
+      "clients": "Corporate Clients",
+      "projects": "Completed Projects"
+    }
+  },
+  "aboutCompany": {
+    "title": "About Our Company",
+    "description": "Learn more about our company structure, advantages, and subsidiary companies."
+  },
+  "top5Projects": {
+      "title": "Our Top 5 Projects",
+      "description": "Showcasing our most significant and successful projects that demonstrate our capabilities and expertise.",
+      "viewDetails": "View Details",
+      "viewAllProjects": "View All Projects"
+    },
+   "openModal": {
+    "sectionTitle": "Open Positions",
+    "sectionDescription": "Applications are currently being accepted for the following positions",
+    "applyButton": "Apply",
+    "watchVacationsButton": "Watch Vacations",
+    "modalTitle": "Job Application",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "mission": "Mission",
+    "missionPlaceholder": "Position you're applying for",
+    "aboutYou": "More About You",
+    "aboutYouPlaceholder": "Tell us more about yourself, your experience, and why you're interested in this position...",
+    "shareButton": "Share",
+    "cancelButton": "Cancel"
+  },
+  "banners": {
+    "company": {
+      "tag": "About Us",
+      "title": "About Us",
+      "description": ""
+    },
+    "team": {
+      "tag": "Our Team",
+      "title": "Our Team",
+      "description": "Our team of professional and experienced specialists constantly strives to provide the highest quality services to our customers. Each team member has expert-level knowledge and experience in their field."
+    },
+    "projects": {
+      "tag": "Our Projects",
+      "title": "Our Projects",
+      "description": "Large-scale industrial projects implemented with 25 years of experience. Projects successfully completed in various fields are indicators of our professionalism and reliability."
+    },
+    "partners": {
+      "tag": "Our Partners",
+      "title": "Our Partners",
+      "description": "Universal Group has been establishing reliable cooperation with the world's leading brands for years. Thanks to these partnerships, we provide high-quality products and flawless service to our customers."
+    },
+    "clients": {
+      "tag": "Our Clients",
+      "title": "Our Clients",
+      "description": "Our clients are the main indicator of our strength. Universal Group is a reliable partner of companies operating in government institutions, oil and gas, construction and other strategic sectors."
+    },
+    "vacations": {
+      "tag": "Career",
+      "title": "Work With Us",
+      "description": "Develop your career at Universal Group and become part of our professional team",
+      "sectionTitle": "Open Positions",
+      "sectionDescription": "Applications are currently being accepted for the following positions",
+      "requirements": "Requirements:",
+      "advantages": "Benefits:",
+      "applyButton": "Apply",
+      "noVacancies": "No open positions currently",
+      "noVacanciesDescription": "Contact us to get information about new vacancies.",
+      "modal": {
+      "title": "Job Application - {position}",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your phone number",
+      "position": "Position",
+      "positionPlaceholder": "Position you're applying for",
+      "aboutYou": "More About You",
+      "aboutYouPlaceholder": "Tell us more about yourself, your experience, and why you're interested in this position...",
+      "submitButton": "Submit",
+      "cancelButton": "Cancel"
+    }
+  },
+  "products": {
+      "tag": "Products",
+      "title": "Our Products",
+      "description": "Wide range of products for industrial and construction sectors"
+    },
+    "services": {
+      "tag": "Our Services",
+      "title": "Our Services",
+      "description": "With 25 years of experience, we provide international-level supply solutions and professional services. We meet our customers' needs with the highest quality."
+    },
+    "contact": {
+      "tag": "Contact",
+      "title": "Contact Us",
+      "description": "Have questions? Our team is ready to help you. Contact us and let's discuss your projects."
+    }
+  }
+}

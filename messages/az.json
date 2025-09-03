@@ -1,0 +1,341 @@
+{
+  "navbar": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "company": "Şirkət",
+    "projects": "Layihələr",
+    "partners": "Tərəfdaşlar",
+    "team": "Komanda",
+    "vacations": "Vakansiyalar",
+    "careers": "Karyera",
+    "clients": "Müştərilər",
+    "products": "Məhsullar",
+    "services": "Xidmətlər",
+    "contact": "Əlaqə"
+  },
+  "common": {
+    "readMore": "Daha Çox Oxu",
+    "learnMore": "Daha Çox Öyrən",
+    "getStarted": "Başlayın",
+    "contactUs": "Bizimlə Əlaqə",
+    "viewAll": "Hamısını Gör",
+    "loading": "Yüklənir...",
+    "error": "Xəta",
+    "success": "Uğurlu"
+  },
+  "hero": {
+    "title1": "Universal",
+    "title2": "Group",
+    "subtitle": "Ticarət Həlləri",
+    "description": "1998-ci ildən sənaye sahəsində güvən simvoluna çevrilmişik. 1200+ beynəlxalq tədarükçü, yüzlərlə brend, onlarla sektor. Universal Qrup — B2B və B2G layihələri üçün strateji təchizat, qüsursuz xidmət modeli və tam məsuliyyət prinsipi ilə fərqlənir. Bu gün 150+ korporativ müştərinin arxasında dayanan güc bizik.",
+    "ctaText": "Bizimlə Əlaqə",
+    "ctaText2": "Məhsullarımız",
+    "location": "Bakı, Azərbaycan",
+    "copyright": "© 2025 Bütün hüquqlar qorunur.",
+    "email": "info@universalgroup.az",
+    "phone1": "+994125266655",
+    "phone2": "+994515550555"
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "description": "Biz mühəndislik həlləri və texniki xidmətlərdə aparıcı şirkətik."
+  },
+  "services": {
+    "title": "Xidmətlərimiz",
+    "description": "Biznes ehtiyaclarınız üçün hərtərəfli mühəndislik və texniki həllər."
+  },
+  "products": {
+    "title": "Məhsullarımız",
+    "description": "Müxtəlif sənayelər üçün yüksək keyfiyyətli məhsullar və avadanlıqlar."
+  },
+  "contact": {
+    "info": {
+      "phone": "Telefon",
+      "email": "E-mail",
+      "address": "Ünvan",
+      "location": "Bakı, Azərbaycan"
+    },
+    "form": {
+      "title": "Bizə mesaj göndərin",
+      "description": "Formu doldurun və biz ən qısa zamanda sizinlə əlaqə saxlayacağıq",
+      "name": "Ad və Soyad",
+      "namePlaceholder": "Adınızı və soyadınızı daxil edin",
+      "email": "E-mail",
+      "emailPlaceholder": "E-mail ünvanınızı daxil edin",
+      "company": "Şirkət",
+      "companyPlaceholder": "Şirkət adını daxil edin",
+      "phone": "Telefon",
+      "phonePlaceholder": "Telefon nömrənizi daxil edin",
+      "subject": "Mövzu",
+      "subjectPlaceholder": "Mövzu seçin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınızı buraya yazın...",
+      "submit": "Mesajı göndər",
+      "submitting": "Göndərilir...",
+      "successMessage": "✓ Mesajınız uğurla göndərildi! Tezliklə sizinlə əlaqə saxlayacağıq."
+    },
+    "subjects": {
+      "general": "Ümumi məlumat",
+      "product": "Məhsul sorğusu",
+      "service": "Xidmət sorğusu",
+      "partnership": "Əməkdaşlıq təklifi",
+      "support": "Texniki dəstək",
+      "other": "Digər"
+    },
+    "map": {
+      "title": "Bizim yerləşdiyimiz yer"
+    }
+  },
+  "footer": {
+    "tagline": "Perspektivlərinizi genişləndirin",
+    "description": "25 illik təcrübə ilə beynəlxalq səviyyədə təchizat həlləri təqdim edən əsrlarin partnyorunuz. Geniş məhsul çeşidi və peşəkar xidmətlərlə müştərilərimizin ehtiyaclarını ən yüksək səviyyədə qarşılayırıq.",
+    "experienceYears": "25 illik təcrübə",
+    "location": "Azərbaycan",
+    "company": "Şirkət",
+    "aboutUs": "Haqqımızda",
+    "aboutUsDesc": "Bizim hekayəmiz",
+    "team": "Komanda",
+    "teamDesc": "Peşəkar kollektiv",
+    "careers": "Vakansiyalar",
+    "careersDesc": "Karyera imkanları",
+    "projects": "Layihələr",
+    "projectsDesc": "Uğur hekayələri",
+    "clients": "Müştərilər",
+    "clientsDesc": "Tərəfdaşlarımız",
+    "contact": "Əlaqə",
+    "office": "Ofis",
+    "mobile": "Mobil",
+    "email": "Email",
+    "headquarters": "Baş ofis",
+    "address": "Bakı, Azərbaycan",
+    "copyright": "© 2025 Universal Group. Bütün hüquqlar qorunur.",
+    "privacyPolicy": "Məxfilik Siyasəti",
+    "termsOfUse": "İstifadə Şərtləri",
+    "siteMap": "Sayt Xəritəsi"
+  },
+  "cta": {
+    "title": "Bizimlə əməkdaşlıq etmək istəyirsiniz?",
+    "description": "25 illik təcrübəmiz və beynəlxalq standartlarımızla sizin layihələrinizin uğuruna təhfə verməyə hazırıq",
+    "buttonText": "Bizimlə əlaqə saxlayın"
+  },
+  "company": {
+    "bannerContent": {
+      "mainParagraph":"Bu gün Universal Qrup QSC dövlət qurumlarının, neft-qaz sənayesinin, inşaat və gəmiçilik sektorlarının etibarlı tərəfdaşıdır. 150-dən çox aktiv korporativ müştərimizin böyük layihələrinin arxasında bizim gücümüz, çevikliyimiz və qüsursuz xidmət modelimiz dayanır.",
+      "paragraph1": "Universal Qrup olaraq 1998-ci ildən Azərbaycan bazarında fəaliyyət göstəririk. İlk gündən məqsədimiz dünyanın qabaqcıl texnologiyalarını ölkəmizə gətirmək və sənayemizi gücləndirmək olub.",
+      "paragraph2": "2013-cü ildə keçdiyimiz rebrendinqdən sonra daha geniş miqyaslı fəaliyyətə başladıq və bu gün artıq yalnız avadanlıq deyil, həm də etimad və dəyərlər təqdim edən marka kimi tanınırıq.",
+      "paragraph3": "Hal-hazırda 1200-dən çox beynəlxalq tədarükçü ilə əməkdaşlıq edirik və portfelimizdə Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Lincoln Electric kimi dünyaca məşhur brendlər yer alır. Təchizat proseslərimizi müştərilərimizin ehtiyacına uyğun olaraq istehsal məntəqəsinə, limanlara və ya birbaşa sahəyə çatdırırıq.",
+      "paragraph4": "Bu gün Universal Qrup QSC dövlət qurumlarının, neft-qaz sənayesinin, inşaat və gəmiçilik sektorlarının etibarlı tərəfdaşıdır. 150-dən çox aktiv korporativ müştərimizin böyük layihələrinin arxasında bizim gücümüz, çevikliyimiz və qüsursuz xidmət modelimiz dayanır.",
+      "mainParagraph1": "Universal Qrup 1998-ci ildə \"Universal Makina\" adı ilə fəaliyyətə başlamış, Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Çağsan, Lincoln Electric və Rockwool kimi nüfuzlu brendlərin rəsmi distribyutoru olmuşdur. 2013-cü ildə rebrendinq edilərək \"Universal Qrup\" adını almış və fəaliyyətini B2B/B2G seqmentlərində genişləndirmişdir.",
+      "mainParagraph2": "Bu gün Universal Qrup 1200-dən çox beynəlxalq tədarükçü ilə əməkdaşlıq edərək, daxili və xarici bazarlardan 70%-i xarici, 30%-i yerli olmaqla, geniş məhsul portfeli təqdim edir. Layihənin ehtiyacına uyğun olaraq, istehsal məntəqəsindən, limanlardan və ya birbaşa sahəyə çatdırılma həyata keçirir. Şirkət tədarük prosesində tam məsuliyyət daşıyaraq \"qüsursuz xidmət modeli\" ilə fərqlənir.",
+      "mainParagraph3": "Hazırda Universal Qrup dövlət qurumları, neft-qaz, inşaat və gəmiçilik sahələrində 150-dən çox korporativ müştərinin etibarlı tərəfdaşıdır."
+    },
+    "advantages": {
+      "title1": "25+ İl Təcrübə",
+      "description1": "Uzun illər ərzində qazanılmış təcrübə və beynəlxalq əlaqələr sayəsində ölkənin aparıcı təchizat şirkətlərindən birinə çevrilmişik.",
+      "title2": "1200+ Tədarükçü",
+      "description2": "B2B və B2C seqmentlərində geniş miqyaslı fəaliyyət göstərən şirkətimiz, 1200-dən çox beynəlxalq tədarükçü ilə işləyir və geniş məhsul portfelinə malikdir.",
+      "title3": "Keyfiyyət Zəmanəti",
+      "description3": "Təchizatın 70%-i xaricdən, 30%-i isə yerli bazardan aparılır. Bütün məhsullarımız beynəlxalq keyfiyyət standartlarına uyğundur və zəmanət ilə təmin edilir.",
+      "title4": "24/7 Dəstək",
+      "description4": "Müştərilərimizə 24 saat, həftənin 7 günü dəstək xidməti göstəririk. Hər hansı bir problem və ya sualınız olduqda bizə müraciət edə bilərsiniz."
+    },
+    "missions": {
+      "sectionTitle": "Bizim Missiyamız",
+      "sectionDescription": "Müştərilərimizə ən yüksək keyfiyyətli xidmət göstərmək və beynəlxalq standartlara uyğun həllər təqdim etmək bizim əsas missiyamızdır.",
+      "title1": "Keyfiyyət və Etibarlılıq",
+      "description1": "Ən yüksək keyfiyyət standartlarına uyğun məhsul və xidmətlər təqdim edərək, müştərilərimizin etimadını qazanırıq.",
+      "title2": "Beynəlxalq Standartlar",
+      "description2": "Dünya səviyyəsində tanınan beynəlxalq standartlara uyğunluq və sertifikatlaşma proseslərini tətbiq edirik.",
+      "title3": "Müştəri Məmnuniyyəti",
+      "description3": "Müştərilərimizin ehtiyaclarını anlamaq və onların gözləntilərini üstələmək bizim əsas prioritetimizdir."
+    },
+    "goals": {
+      "sectionTitle": "Bizim Məqsədlərimiz",
+      "sectionDescription": "2025-ci ilə qədər əldə etməyi planlaşdırdığımız strateji hədəflər və uzunmüddətli vizyonumuz.",
+      "title1": "Bazar Lideri",
+      "description1": "Azərbaycan bazarında aparıcı texhizat şirkəti olmaq",
+      "title2": "Genişlənmə",
+      "description2": "Regional bazarlarda fəaliyyətin genişləndirilməsi",
+      "title3": "Davamlılıq",
+      "description3": "Ekoloji cəhətdən davamlı biznes modeli",
+      "title4": "Texnologiya",
+      "description4": "Rəqəmsal transformasiya və avtomatlaşdırma",
+      "targetLabel": "Hədəf:"
+    },
+    "values": {
+      "sectionTitle": "Bizim Dəyərlərimiz",
+      "sectionDescription": "Fəaliyyətimizi istiqamətləndirən əsas prinsiplər və dəyərlər",
+      "title1": "Etibarlılıq",
+      "description1": "Hər bir layihədə verdiyimiz sözə sadiq qalır, tərəfdaşlarımız üçün daima güvənilən təchizatçı oluruq.",
+      "title2": "Keyfiyyət",
+      "description2": "Məhsul seçimindən çatdırılma mərhələsinədək — hər detalda yüksək standartlara əməl edirik.",
+      "title3": "İnsan Kapitalı",
+      "description3": "Əməkdaşlarımıza öz işlərini həvəslə icra etmələri, yeniliklərə imza atmaları və həm şəxsi, həm də peşəkar səviyyədə inkişafa nail olmaları üçün hər zaman dəstək oluruq.",
+      "title4": "Peşəkarlıq",
+      "description4": "Komandamız texniki bilik və sənaye təcrübəsini birləşdirərək müştərilərimizə həll yönümlü xidmət təqdim edir.",
+      "title5": "Şəffaflıq",
+      "description5": "Tədarük prosesini açıq və izlənəbilən formada təşkil edirik — hər addımda hesabatlılıq bizim üçün vacibdir."
+    },
+    "azlift": {
+      "mainText": "2012-Cİ İLDƏN ETİBARƏN QALDIRICI AVADANLIQLAR VƏ HAVA PLATFORMALARININ İCARƏSİ VƏ SATIŞI SAHƏSİNDƏ FƏALİYYƏT GÖSTƏRİRİK.",
+      "description1": "Azlift şirkəti 2012-ci ildən etibarən qaldırıcı avadanlıqlar və hava platformalarının icarəsi və satışı sahəsində fəaliyyət göstərir. Şirkətimiz müasir texnologiyalar və yüksək keyfiyyətli xidmətlərlə sənayenin ehtiyaclarını qarşılayır.",
+      "description2": "Təcrübəli komandamız və geniş avadanlıq parkımız sayəsində müxtəlif sahələrdə - tikinti, sənaye, neft-qaz və digər sektorlarda etibarlı həllər təqdim edirik.",
+      "experienceYears": "İl təcrübə",
+      "completedProjects": "Tamamlanmış layihə"
+    },
+    "azglobal": {
+      "title": "AZ GLOBAL MMC",
+      "description": "AZ Global MMC şirkəti beynəlxalq ticarət və logistika sahəsində fəaliyyət göstərən müasir bir şirkətdir. Biz müştərilərimizə dünya standartlarına uyğun xidmətlər təqdim edirik və beynəlxalq bazarlarda etibarlı tərəfdaş olaraq tanınırıq.",
+      "mainText": "AZ GLOBAL MMC MÜXTƏLİF LAYİHƏLƏRDƏ İŞTİRAK EDƏN ÇEVİK TƏCHİZAT VƏ MÜHƏNDİSLİK ŞİRKƏTİDİR",
+      "description1": "AZ Global MMC şirkəti beynəlxalq ticarət və logistika sahəsində fəaliyyət göstərən müasir bir şirkətdir. Biz müştərilərimizə dünya standartlarına uyğun xidmətlər təqdim edirik.",
+      "description2": "Beynəlxalq bazarlarda etibarlı tərəfdaş olaraq tanınırıq və müştərilərimizin ehtiyaclarını qarşılamaq üçün innovativ həllər təqdim edirik."
+    }
+  },
+  "companyTabs": {
+    "missionVision": "Missiya və Vizyon",
+    "timeline": "Tarixçə",
+    "aboutCompany": "Şirkət Haqqında"
+  },
+  "missionVision": {
+    "title": "Missiya və Vizyon",
+    "description": "Şirkətimizi istiqamətləndirən əsas missiya, strateji hədəflər və fundamental dəyərlər."
+  },
+  "timeline": {
+    "title": "Şirkət Tarixçəsi",
+    "description": "1998-ci ildən etibarən şirkətimizin səyahətindəki əsas mərhələlər və nailiyyətlər.",
+    "events": {
+      "1998": {
+        "title": "Şirkətin Təsisi",
+        "description": "Universal Qrup Universal Makina adı ilə təsis edildi və rəsmi distribyutor kimi fəaliyyətə başladı."
+      },
+      "2005": {
+        "title": "Bazar Genişlənməsi",
+        "description": "Fəaliyyət genişləndirildi və əsas beynəlxalq brendlərlə tərəfdaşlıq quruldu."
+      },
+      "2012": {
+        "title": "Azlift-in Yaradılması",
+        "description": "Qaldırıcı avadanlıqlar və hava platformalarının icarəsi və satışı üçün Azlift bölməsi yaradıldı."
+      },
+      "2013": {
+        "title": "Rebrendinq",
+        "description": "Universal Qrup adı ilə rebrendinq edildi və B2B/B2G fəaliyyəti əhəmiyyətli dərəcədə genişləndirildi."
+      },
+      "2018": {
+        "title": "Rəqəmsal Transformasiya",
+        "description": "Müasir rəqəmsal sistemlər tətbiq edildi və onlayn mövcudluq genişləndirildi."
+      },
+      "2020": {
+        "title": "AZ Global-ın Yaradılması",
+        "description": "Beynəlxalq ticarət və logistika əməliyyatları üçün AZ Global LLC yaradıldı."
+      },
+      "2025": {
+        "title": "Gələcək Vizyonu",
+        "description": "1200+ tədarükçü və 150+ korporativ müştəri ilə davamlı böyümə."
+      }
+    },
+    "stats": {
+      "experience": "İllik Təcrübə",
+      "suppliers": "Beynəlxalq Tədarükçü",
+      "clients": "Korporativ Müştəri",
+      "projects": "Tamamlanmış Layihə"
+    }
+  },
+  "aboutCompany": {
+    "title": "Şirkətimiz Haqqında",
+    "description": "Şirkət strukturumuz, üstünlüklərimiz və törəmə şirkətlərimiz haqqında daha çox məlumat əldə edin."
+  },
+  "top5Projects": {
+     "title": "Ən Yaxşı 5 Layihəmiz",
+     "description": "Qabiliyyətlərimizi və təcrübəmizi nümayiş etdirən ən əhəmiyyətli və uğurlu layihələrimiz.",
+     "viewDetails": "Təfərrüatları Gör",
+     "viewAllProjects": "Bütün Layihələri Gör"
+   },
+  "openModal": {
+    "sectionTitle": "Açıq Vakansiyalar",
+    "sectionDescription": "Hazırda aşağıdakı vəzifələr üçün müraciət qəbul edilir",
+    "applyButton": "Müraciət Et",
+    "watchVacationsButton": "Vakansiyalara Bax",
+    "modalTitle": "İş Müraciəti",
+    "fullName": "Tam Ad",
+    "fullNamePlaceholder": "Tam adınızı daxil edin",
+    "email": "Email",
+    "emailPlaceholder": "Email ünvanınızı daxil edin",
+    "phone": "Telefon",
+    "phonePlaceholder": "Telefon nömrənizi daxil edin",
+    "mission": "Missiya",
+    "missionPlaceholder": "Müraciət etdiyiniz vəzifə",
+    "aboutYou": "Haqqınızda Ətraflı",
+    "aboutYouPlaceholder": "Özünüz haqqında, təcrübəniz və bu vəzifəyə niyə maraq göstərdiyiniz barədə bizə danışın...",
+    "shareButton": "Paylaş",
+    "cancelButton": "Ləğv et"
+  },
+  "banners": {
+    "company": {
+      "tag": "Haqqımızda",
+      "title": "Haqqımızda",
+      "description": ""
+    },
+    "team": {
+      "tag": "Bizim Komanda",
+      "title": "Komandamız",
+      "description": "Peşəkar və təcrübəli mütəxəssislərdən ibarət komandamız müştərilərimizə ən yüksək keyfiyyətli xidmətlər təqdim etmək üçün daim çalışır. Hər bir komanda üzvü öz sahəsində ekspert səviyyəsində bilik və təcrübəyə malikdir."
+    },
+    "projects": {
+      "tag": "Bizim Layihələr",
+      "title": "Layihələrimiz",
+      "description": "25 illik təcrübə ilə həyata keçirdiyimiz böyük miqyaslı sənaye layihələri. Müxtəlif sahələrdə uğurla tamamladığımız layihələr bizim peşəkarlığımızın və etibarlılığımızın göstəricisidir."
+    },
+    "partners": {
+      "tag": "Bizim Tərəfdaşlar",
+      "title": "Tərəfdaşlarımız",
+      "description": "Universal Qrup illərdir dünyanın aparıcı brendləri ilə etibarlı əməkdaşlıq qurur. Bu tərəfdaşlıqlar sayəsində müştərilərimizə yüksək keyfiyyətli məhsullar və qüsursuz xidmət təqdim edirik"
+    },
+    "clients": {
+      "tag": "Bizim Müştərilər",
+      "title": "Müştərilərimiz",
+      "description": "Müştərilərimiz bizim gücümüzün əsas göstəricisidir. Universal Qrup dövlət qurumları, neft-qaz, inşaat və digər strateji sahələrdə fəaliyyət göstərən şirkətlərin etibarlı tərəfdaşıdır"
+    },
+    "vacations": {
+      "tag": "Karyera",
+      "title": "Bizimlə İşləyin",
+      "description": "Universal Group-da karyeranızı inkişaf etdirin və peşəkar komandamızın bir hissəsi olun",
+      "sectionTitle": "Açıq Vakansiyalar",
+      "sectionDescription": "Hazırda aşağıdakı vəzifələr üçün müraciət qəbul edilir",
+      "requirements": "Tələblər:",
+      "advantages": "Üstünlüklər:",
+      "applyButton": "Müraciət Et",
+      "noVacancies": "Hazırda açıq vakansiya yoxdur",
+      "noVacanciesDescription": "Yeni vakansiyalar haqqında məlumat almaq üçün bizimlə əlaqə saxlayın.",
+      "modal": {
+      "title": "İş Müraciəti - {position}",
+      "fullName": "Tam Ad",
+      "fullNamePlaceholder": "Tam adınızı daxil edin",
+      "email": "Email",
+      "emailPlaceholder": "Email ünvanınızı daxil edin",
+      "phone": "Telefon",
+      "phonePlaceholder": "Telefon nömrənizi daxil edin",
+      "position": "Vəzifə",
+      "positionPlaceholder": "Müraciət etdiyiniz vəzifə",
+      "aboutYou": "Haqqınızda",
+      "aboutYouPlaceholder": "Özünüz haqqında, təcrübəniz və bu vəzifəyə niyə maraq göstərdiyiniz barədə bizə danışın...",
+      "submitButton": "Göndər",
+      "cancelButton": "Ləğv et"
+    }
+  },
+  "products": {
+      "tag": "Məhsullar",
+      "title": "Məhsullarımız",
+      "description": "Sənaye və tikinti sahələri üçün geniş məhsul çeşidi"
+    },
+    "services": {
+      "tag": "Bizim Xidmətlər",
+      "title": "Xidmətlərimiz",
+      "description": "25 illik təcrübə ilə beynəlxalq səviyyədə təchizat həlləri və peşəkar xidmətlər təqdim edirik. Müştərilərimizin ehtiyaclarını ən yüksək keyfiyyətdə qarşılayırıq."
+    },
+    "contact": {
+      "tag": "Əlaqə",
+      "title": "Bizimlə əlaqə saxlayın",
+      "description": "Suallarınız var? Bizim komandamız sizə kömək etməyə hazırdır. Bizimlə əlaqə saxlayın və layihələrinizi müzakirə edək."
+    }
+  }
+}
