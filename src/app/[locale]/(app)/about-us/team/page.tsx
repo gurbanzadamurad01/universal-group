@@ -17,7 +17,7 @@ const Page = async ({ params }: { params: Promise<{ locale: string }> }) => {
       <StatsSection locale={locale as 'az' | 'en' | 'tr'} />
       <TeamSection locale={locale as 'az' | 'en' | 'tr'} />
       <DepartmentsSection locale={locale as 'az' | 'en' | 'tr'}/>
-      <CTASection />
+      <CTASection locale={locale} />
     </div>
   );
 };

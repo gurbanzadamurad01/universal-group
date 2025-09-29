@@ -353,7 +353,7 @@ const ServicesClient: React.FC<ServicesClientProps> = ({
       </section>
 
       {/* Footer Top Component and Footer */}
-      <CTASection />
+      <CTASection locale={locale} />
     </AnimatedSection>
   );
 };

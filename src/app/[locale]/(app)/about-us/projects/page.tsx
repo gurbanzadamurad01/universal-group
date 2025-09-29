@@ -13,7 +13,7 @@ const Page = async ({ params }: { params: Promise<{ locale: string }> }) => {
     <div>
       <Banner bannerKey="projects" />
       <ProductsSection locale={locale} />
-      <CTASection />
+      <CTASection locale={locale} />
     </div>
   );
 };

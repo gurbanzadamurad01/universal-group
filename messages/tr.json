@@ -119,12 +119,10 @@
     "buttonText": "Bizimle İletişime Geçin"
   },
   "company": {
-    "bannerContent": {  
+    "bannerContent": {
       "mainParagraph": "Bugün Universal Grup QSC devlet kurumlarının, petrol-gaz endüstrisinin, inşaat ve gemi sektörlerinin güvenilir ortağıdır. 150'den fazla aktif kurumsal müşterimizin büyük projelerinin arkasında bizim gücümüz, çevikliğimiz ve kusursuz hizmet modelimiz durmaktadır.",
-      "paragraph1": "Universal Grup olarak 1998'den beri Azerbaycan pazarında faaliyet gösteriyoruz. İlk günden amacımız dünyanın önde gelen teknolojilerini ülkemize getirmek ve sanayimizi güçlendirmek olmuştur.",
-      "paragraph2": "2013'te geçirdiğimiz rebrandingden sonra daha geniş ölçekli faaliyete başladık ve bugün artık sadece ekipman değil, aynı zamanda güven ve değerler sunan bir marka olarak tanınıyoruz.",
-      "paragraph3": "Şu anda 1200'den fazla uluslararası tedarikçi ile işbirliği yapıyoruz ve portföyümüzde Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Lincoln Electric gibi dünyaca ünlü markalar yer alıyor. Tedarik süreçlerimizi müşterilerimizin ihtiyacına göre üretim tesisine, limanlara veya doğrudan sahaya ulaştırıyoruz.",
-      "paragraph4": "Bugün Universal Grup QSC devlet kurumlarının, petrol-gaz endüstrisinin, inşaat ve gemi sektörlerinin güvenilir ortağıdır. 150'den fazla aktif kurumsal müşterimizin büyük projelerinin arkasında bizim gücümüz, çevikliğimiz ve kusursuz hizmet modelimiz durmaktadır.",
+      "paragraph1": "Firmamız 2016 yılından bu yana \"Universal Pro\" ismiyle faaliyet göstermektedir. Uzun yıllar boyunca edindiğimiz deneyim ve uluslararası ilişkiler sayesinde ülkemizin önde gelen tedarik şirketlerinden biri haline geldik.",
+      "paragraph2": "B2B ve B2G segmentlerinde büyük ölçekte faaliyet gösteren firmamız, 1.200'den fazla uluslararası tedarikçiyle çalışmakta olup geniş bir ürün portföyüne sahiptir. Tedarikin %70'i yurt dışından, %30'u ise iç pazardan sağlanmaktadır.",
       "mainParagraph1": "Universal Qrup 1998 yılında \"Universal Makina\" adıyla faaliyete başlamış, Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Çağsan, Lincoln Electric ve Rockwool gibi saygın markaların resmi distribütörü olmuştur. 2013 yılında yeniden markalaşarak \"Universal Qrup\" adını almış ve faaliyetlerini B2B/B2G segmentlerinde genişletmiştir.",
       "mainParagraph2": "Bugün Universal Qrup, 1.200'den fazla uluslararası tedarikçi ile işbirliği yaparak, %70'i yurt dışından, %30'u yerel olmak üzere hem iç hem de dış pazarlardan geniş bir ürün portföyü sunmaktadır. Projenin ihtiyacına göre, ürünleri üretim yerlerinden, limanlardan veya doğrudan sahaya teslim etmektedir. Şirket, tedarik sürecinin tamamından sorumluluk alarak \"kusursuz hizmet modeli\" ile öne çıkmaktadır.",
       "mainParagraph3": "Hâlihazırda Universal Qrup; devlet kurumları, petrol ve gaz, inşaat ve gemi inşa sektörlerinde 150'den fazla kurumsal müşterinin güvenilir iş ortağıdır."
@@ -178,8 +176,8 @@
     },
     "azlift": {
       "mainText": "2012'DEN İTİBAREN KALDIRMA EKİPMANLARI VE HAVA PLATFORMLARININ KİRALAMA VE SATIŞI ALANINDA FAALİYET GÖSTERİYORUZ.",
-      "description1": "Azlift şirketi 2012'den itibaren kaldırma ekipmanları ve hava platformlarının kiralama ve satışı alanında faaliyet göstermektedir. Şirketimiz modern teknolojiler ve yüksek kaliteli hizmetlerle endüstrinin ihtiyaçlarını karşılamaktadır.",
-      "description2": "Deneyimli ekibimiz ve geniş ekipman parkımız sayesinde çeşitli alanlarda - inşaat, sanayi, petrol-gaz ve diğer sektörlerde güvenilir çözümler sunuyoruz.",
+      "description1": "Azlift şirketi, inşaat projeleri, iç ve dış çalışma alanları, depolar, lojistik merkezleri vb. için kaldırma ve yükleme platformları, inşaat ekipmanlarının servis, kiralama ve satışı ile ilgilenmektedir. Uzun yıllara dayanan deneyime sahip kiralama yöneticimiz, gerektiğinde sizi yerinde ziyaret ederek, sadece ürün listesindeki ekipmanlarla sınırlı kalmayıp, tam olarak neye ihtiyacınız olduğu konusunda size tavsiyelerde bulunur.",
+      "description2": "Şirketimiz, Azerbaycan'da AZFEN LLC, Laçin Havalimanı projesi, Şuşa tüneli, Kelbecer Sıcak Su Tesisi, Kelbecer ve Zengilan'daki konferans salonları, Cebrayil bölgesinde sosyal konut inşaatı ve Gobustan'da alternatif enerji kaynakları gibi büyük ölçekli projelere sağladığı büyük destekle bu alanda adını defalarca duyurmuştur. Ürün portföyümüzde elektrikli ve dizel motorlu makaslı, teleskopik, mafsallı vb. personel kaldırma platformlarının yanı sıra otomatik araba, vinç, ekskavatör, buldozer, hidrolik kaldırıcı ve yükleyici gibi depo ekipmanları da bulunmaktadır.",
       "experienceYears": "Yıl deneyim",
       "completedProjects": "Tamamlanan proje"
     },
@@ -189,12 +187,29 @@
       "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
       "description1": "AZ Global LLC uluslararası ticaret ve lojistik alanında faaliyet gösteren modern bir şirkettir. Müşterilerimize dünya standartlarında hizmetler sunuyoruz.",
       "description2": "Uluslararası pazarlarda güvenilir bir ortak olarak tanınıyoruz ve müşterilerimizin ihtiyaçlarını karşılamak için yenilikçi çözümler sunuyoruz."
+    },
+    "unisan": {
+      "title": "Unisan Sanayi Yapi",
+      "description": "Unisan, 2019 yılında kurulmuş olup Gürcistan'da faaliyet göstermektedir.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Ana faaliyet alanı uzmanlaşmamış, geniş ürün yelpazesine sahip ürünlerin toptan satışı olan Unisan, müşterilerine güvenilir bir ortak olarak tek bir merkezden farklı ürün gruplarını sunmaktadır. Şirket, modern yaklaşımlarıyla çalışanlarına kolaylık ve sürekli tedarik olanakları yaratmaktadır.",
+      "description2": "Uluslararası pazarlarda güvenilir bir ortak olarak tanınıyoruz ve müşterilerimizin ihtiyaçlarını karşılamak için yenilikçi çözümler sunuyoruz."
+    },
+    "leading": {
+      "title": "Leading Supply Solution",
+      "description": "Unisun 2019-cu ildə təsis olunub və Gürcüstanda fəaliyyət göstərir.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Leading Supply Solutions, 2013 yılından bu yana faaliyet göstermekte olup, 2021 yılından itibaren Anonim Şirket statüsüne geçerek pazardaki konumunu daha da güçlendirmiştir. Şirket, özel sektör toptan satış faaliyetlerinin yanı sıra, ara mamullerin ve geniş bir ürün yelpazesinin toptan satışına yönelik acentelik hizmetleri de vermektedir.",
+      "description2": "Profesyonel yaklaşımı ve geniş ortaklık ağıyla Leading Supply Solutions, müşterilerine güvenilir ve esnek çözümler sunuyor."
     }
   },
   "companyTabs": {
     "missionVision": "Misyon ve Vizyon",
     "timeline": "Tarihçe",
-    "aboutCompany": "Şirket Hakkında"
+    "aboutCompany": "Şirketler Hakkında"
+  },
+  "popupText": {
+    "title": "Bu Şirket Hakkında"
   },
   "missionVision": {
     "title": "Misyon ve Vizyon",
@@ -245,11 +260,11 @@
     "description": "Şirket yapımız, avantajlarımız ve bağlı şirketlerimiz hakkında daha fazla bilgi edinin."
   },
   "top5Projects": {
-     "title": "En İyi 5 Projemiz",
-     "description": "Yeteneklerimizi ve uzmanlığımızı gösteren en önemli ve başarılı projelerimiz.",
-     "viewDetails": "Detayları Görüntüle",
-     "viewAllProjects": "Tüm Projeleri Görüntüle"
-   },
+    "title": "En İyi 5 Projemiz",
+    "description": "Yeteneklerimizi ve uzmanlığımızı gösteren en önemli ve başarılı projelerimiz.",
+    "viewDetails": "Detayları Görüntüle",
+    "viewAllProjects": "Tüm Projeleri Görüntüle"
+  },
   "openModal": {
     "sectionTitle": "Açık Pozisyonlar",
     "sectionDescription": "Şu anda aşağıdaki pozisyonlar için başvuru kabul edilmektedir",
@@ -307,22 +322,22 @@
       "noVacancies": "Şu anda açık pozisyon bulunmamaktadır",
       "noVacanciesDescription": "Yeni pozisyonlar hakkında bilgi almak için bizimle iletişime geçin.",
       "modal": {
-      "title": "İş Başvurusu - {position}",
-      "fullName": "Ad Soyad",
-      "fullNamePlaceholder": "Ad ve soyadınızı girin",
-      "email": "E-posta",
-      "emailPlaceholder": "E-posta adresinizi girin",
-      "phone": "Telefon",
-      "phonePlaceholder": "Telefon numaranızı girin",
-      "position": "Pozisyon",
-      "positionPlaceholder": "Başvurduğunuz pozisyon",
-      "aboutYou": "Hakkınızda",
-      "aboutYouPlaceholder": "Kendiniz, deneyiminiz ve bu pozisyona neden ilgi duyduğunuz hakkında bize bilgi verin...",
-      "submitButton": "Gönder",
-      "cancelButton": "İptal"
-    }
-  },
-  "products": {
+        "title": "İş Başvurusu - {position}",
+        "fullName": "Ad Soyad",
+        "fullNamePlaceholder": "Ad ve soyadınızı girin",
+        "email": "E-posta",
+        "emailPlaceholder": "E-posta adresinizi girin",
+        "phone": "Telefon",
+        "phonePlaceholder": "Telefon numaranızı girin",
+        "position": "Pozisyon",
+        "positionPlaceholder": "Başvurduğunuz pozisyon",
+        "aboutYou": "Hakkınızda",
+        "aboutYouPlaceholder": "Kendiniz, deneyiminiz ve bu pozisyona neden ilgi duyduğunuz hakkında bize bilgi verin...",
+        "submitButton": "Gönder",
+        "cancelButton": "İptal"
+      }
+    },
+    "products": {
       "tag": "Ürünler",
       "title": "Ürünlerimiz",
       "description": "Endüstriyel ve inşaat sektörleri için geniş ürün yelpazesi"

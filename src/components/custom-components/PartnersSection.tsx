@@ -178,7 +178,7 @@ const PartnersSection = ({locale}: {locale: 'az' | 'en' | 'tr'}) => {
     {
       id: 13,
       name: "Siemens",
-      logo: "/partners-logo/Siemens-Logo.png",
+      logo: "/logo/siemens.jpg",
       category: {
         az: "Elektrik",
         en: "Electrical",

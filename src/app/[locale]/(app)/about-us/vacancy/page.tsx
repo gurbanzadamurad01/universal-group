@@ -20,7 +20,7 @@ const Page = async ({ params }: { params: Promise<{ locale: string }> }) => {
       <VacationsSection locale={locale as 'az' | 'en' | 'tr'} />
 
       {/* CTA Section */}
-      <CTASection />
+      <CTASection locale={locale} />
     </div>
   );
 };

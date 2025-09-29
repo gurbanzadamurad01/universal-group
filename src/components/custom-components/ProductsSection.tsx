@@ -74,7 +74,7 @@ const ProductsSection = ({locale}: {locale: string}) => {
         tr: "Tübitak'ün Qaz Hizmetleri ve İnfrastruktur Geliştirme Projesi",
       },
       image:
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=250&fit=crop",
+        "/products/Shahdeniz Qaz Sahasi Expansion.jpg",
       status: {
         az: "Davam edir",
         en: "Ongoing",
@@ -184,7 +184,7 @@ const ProductsSection = ({locale}: {locale: string}) => {
         tr: "Yeni Neft Platformunun Kurulması ve Genişletilmesi",
       },
       image:
-        "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop",
+        "/products/Xezer Sea Oil Platform.jpg",
       status: {
         az: "Tamamlanmış",
         en: "Completed",

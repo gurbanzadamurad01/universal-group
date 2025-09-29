@@ -27,7 +27,7 @@ const createNavItems = (t: any) => {
         },
         {
           path: "/about-us/partners",
-          label: "Our Partners",
+          label: t('partners'),
           submenu: [
             {
               path: "/about-us/partners/rockwool",
@@ -77,16 +77,16 @@ const createNavItems = (t: any) => {
         },
         {
           path: "/about-us/clients",
-          label: "Our Clients",
+          label: t('clients'),
         },
-        {
-          path: "/about-us/team",
-          label: t('team'),
-        },
-        {
-          path: "/about-us/vacancy",
-          label: t('vacations'),
-        },
+        // {
+        //   path: "/about-us/team",
+        //   label: t('team'),
+        // },
+        // {
+        //   path: "/about-us/vacancy",
+        //   label: t('vacations'),
+        // },
       ],
     },
     { path: "/products", label: t('products'), isLink: true },

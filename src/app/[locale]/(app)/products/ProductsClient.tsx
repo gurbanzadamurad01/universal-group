@@ -411,7 +411,7 @@ const productCategories = [
     },
     icon: "🔩",
     image:
-      "https://images.unsplash.com/photo-1581092335878-0d0398b0d11e?w=400&h=300&fit=crop",
+      "/products/Valves and Pipe Fittings.png",
     subcategories: {
       az: [
         "Pnevmatik və elektromexaniki aktuatorlar",
@@ -454,7 +454,7 @@ const productCategories = [
     },
     icon: "🔗",
     image:
-      "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+      "/products/PVC Materials.png",
     subcategories: {
       az: [
         "Yüksək və aşağı təzyiqli PVC birləşmələri",
@@ -621,7 +621,7 @@ const productCategories = [
     },
     icon: "🔧",
     image:
-      "https://images.unsplash.com/photo-1581092918484-8313a22c5d2d?w=400&h=300&fit=crop",
+      "/products/Maintenance, Repair and Operations (MRO).jpg",
     subcategories: {
       az: [
         "Təmizlik alətləri, Yağlama sistemləri",
@@ -655,7 +655,7 @@ const productCategories = [
     },
     icon: "🛡️",
     image:
-      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=300&fit=crop",
+      "/products/HSE and Emergency Preparedness.jpg",
     subcategories: {
       az: [
         "Sızma dəstləri, Absorbentlər",
@@ -837,12 +837,12 @@ const ProductsClient = ({ locale }: { locale: "az" | "en" | "tr" }) => {
 
                 {/* Body with subcategories tags */}
                 <div className="p-5 bg-white">
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-col gap-2">
                     {category.subcategories[locale].map(
                       (subcategory, subIndex) => (
                         <span
                           key={subIndex}
-                          className="inline-block px-3 py-1.5  text-[#4d4d4d] text-xs font-medium rounded-lg border border-[#ffe500]/20 hover:border-[#ffe500] hover:bg-[#ffe500] hover:text-[#040404] transition-all duration-300 cursor-pointer shadow-sm"
+                          className="inline-block px-3 py-1.5  text-[#4d4d4d] text-xs font-medium rounded-lg border border-[#ffe500]/20 hover:border-[#ffe500] hover:text-[#040404] transition-all duration-300 shadow-sm"
                         >
                           {subcategory}
                         </span>
@@ -873,7 +873,7 @@ const ProductsClient = ({ locale }: { locale: "az" | "en" | "tr" }) => {
       </section>
 
       {/* CTA Section */}
-      <CTASection />
+      <CTASection locale={locale} />
 
       {/* Footer */}
     </AnimatedSection>

@@ -121,10 +121,8 @@
   "company": {
     "bannerContent": {
       "mainParagraph":"Today Universal Group QSC is a reliable partner of government institutions, oil and gas industry, construction and shipping sectors. Behind the major projects of our 150+ active corporate clients stands our strength, agility and flawless service model.",
-      "paragraph1": "As Universal Group, we have been operating in the Azerbaijan market since 1998. From the first day, our goal has been to bring the world's leading technologies to our country and strengthen our industry.",
-      "paragraph2": "After the rebranding we underwent in 2013, we started operating on a larger scale and today we are recognized as a brand that offers not only equipment, but also trust and values.",
-      "paragraph3": "We currently cooperate with more than 1200 international suppliers and our portfolio includes world-famous brands such as Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Lincoln Electric. We deliver our supply processes to production facilities, ports or directly to the field according to our customers' needs.",
-      "paragraph4": "Today Universal Group QSC is a reliable partner of government institutions, oil and gas industry, construction and shipping sectors. Behind the major projects of our 150+ active corporate clients stands our strength, agility and flawless service model.",
+      "paragraph1": "Our company has been operating under the name \"Universal Pro\" since 2016. Thanks to the experience and international relations gained over many years, we have become one of the leading supply companies in the country.",
+      "paragraph2": "Our company, which operates on a large scale in the B2B and B2G segments, works with more than 1,200 international suppliers and has a wide product portfolio. 70% of the supply is from abroad and 30% from the local market.",
       "mainParagraph1": "Founded in 1998 as \"Universal Makina,\" Universal Group began its operations as the official distributor for prestigious brands such as Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Çağsan, Lincoln Electric, and Rockwool. In 2013, the company rebranded to \"Universal Group\" and expanded its operations in the B2B/B2G segments.",
       "mainParagraph2": "Today, Universal Group collaborates with over 1,200 international suppliers, offering a wide product portfolio sourced from both domestic and foreign markets—70% from abroad and 30% locally. Depending on project needs, the company delivers products from manufacturing sites, ports, or directly to the job site. The company distinguishes itself with a \"flawless service model,\" taking full responsibility for the entire supply process. We ensure that our customers receive the highest quality products and services, meeting their needs at the highest level.",
       "mainParagraph3": "Currently, Universal Group is a trusted partner for over 150 corporate clients in the government, oil and gas, construction, and shipping sectors."
@@ -178,8 +176,8 @@
     },
     "azlift": {
       "mainText": "SINCE 2012, WE HAVE STARTED WITH RENT AND SALES OF LIFTING EQUIPMENT AND AERIAL WORKING PLATFORMS.",
-      "description1": "Azlift company has been operating in the field of rental and sales of lifting equipment and aerial platforms since 2012. Our company meets the needs of the industry with modern technologies and high-quality services.",
-      "description2": "Thanks to our experienced team and wide equipment park, we provide reliable solutions in various fields - construction, industry, oil and gas and other sectors.",
+      "description1": "Azlift company is engaged in the service, rental and sale of lifting and loading platforms, construction equipment for construction projects, indoor and outdoor work areas, warehouses, logistics centers, etc. Based on many years of experience, our rental manager visits you on site if necessary, and advises you on exactly what you need, not just the equipment in the product list.",
+      "description2": "Our company has made a name for itself in this field many times by providing great support to large-scale projects within Azerbaijan, such as AZFEN LLC, Lachin Airport project, Shusha tunnel, Kalbajar Hot Water Plant, conference halls in Kalbajar and Zangilan, construction of social houses in Jabrayil district, alternative energy sources in Gobustan. Our product portfolio includes electric and diesel powered scissor, telescopic, articulated, etc. personnel lifting platforms as well as warehouse equipment such as autocarts, cranes, excavators, bulldozers, hydraulic lifts and loaders.",
       "experienceYears": "Years of experience",
       "completedProjects": "Completed projects"
     },
@@ -189,12 +187,29 @@
       "mainText": "AZ GLOBAL LLC IS A FLEXIBLE SUPPLY AND ENGINEERING COMPANY INVOLVED IN VARIOUS PROJECTS",
       "description1": "AZ Global LLC is a modern company operating in the field of international trade and logistics. We provide world-class services to our clients.",
       "description2": "We are recognized as a reliable partner in international markets and provide innovative solutions to meet our clients' needs."
+    },
+    "popupText": {
+      "title": "About This Company"
+    },
+    "unisan": {
+      "title": "Unisan Sanayi Yapi",
+      "description": "Unisan was founded in 2019 and operates in Georgia.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Unisan, whose main focus is the wholesale of non-specialized, wide-range goods, offers its customers different product groups from a single center as a reliable partner. The company creates convenience and continuous supply opportunities for its employees with its modern approaches.",
+      "description2": "Uluslararası pazarlarda güvenilir bir ortak olarak tanınıyoruz ve müşterilerimizin ihtiyaçlarını karşılamak için yenilikçi çözümler sunuyoruz."
+    },
+    "leading": {
+      "title": "Leading Supply Solution",
+      "description": "Unisan 2019-cu ildə təsis olunub və Gürcüstanda fəaliyyət göstərir.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Leading Supply Solutions has been operating since 2013 and has further strengthened its position in the market with the status of a CJSC since 2021. In addition to non-specialized wholesale activities, the company provides agency services for the wholesale of intermediate products and a wide range of goods.",
+      "description2": "With a professional approach and an extensive network of partnerships, Leading Supply Solutions offers its customers reliable and flexible solutions."
     }
   },
   "companyTabs": {
     "missionVision": "Mission & Vision",
     "timeline": "Timeline",
-    "aboutCompany": "About Company"
+    "aboutCompany": "About Companies"
   },
   "missionVision": {
     "title": "Mission & Vision",
@@ -245,12 +260,12 @@
     "description": "Learn more about our company structure, advantages, and subsidiary companies."
   },
   "top5Projects": {
-      "title": "Our Top 5 Projects",
-      "description": "Showcasing our most significant and successful projects that demonstrate our capabilities and expertise.",
-      "viewDetails": "View Details",
-      "viewAllProjects": "View All Projects"
-    },
-   "openModal": {
+     "title": "Our Top 5 Projects",
+     "description": "Showcasing our most significant and successful projects that demonstrate our capabilities and expertise.",
+     "viewDetails": "View Details",
+     "viewAllProjects": "View All Projects"
+   },
+  "openModal": {
     "sectionTitle": "Open Positions",
     "sectionDescription": "Applications are currently being accepted for the following positions",
     "applyButton": "Apply",

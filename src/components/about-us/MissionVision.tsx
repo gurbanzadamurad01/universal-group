@@ -110,7 +110,7 @@ const MissionVision = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <TagComponent
-              text="Our Mission"
+              text={t('missions.sectionTitle')}
               icon={Target}
               className="text-[#ffe500] bg-[#ffe500]"
             />
@@ -164,7 +164,7 @@ const MissionVision = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <TagComponent
-              text="Our Goals"
+              text={t('goals.sectionTitle')}
               icon={Target}
               className="text-[#ffe500] bg-[#ffe500]"
             />
@@ -230,7 +230,7 @@ const MissionVision = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <TagComponent
-              text="Our Values"
+              text={t('values.sectionTitle')}
               icon={Heart}
               className="text-[#ffe500] bg-[#ffe500]"
             />

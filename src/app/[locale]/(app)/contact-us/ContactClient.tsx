@@ -402,7 +402,7 @@ const ContactClient: React.FC<ContactClientProps> = ({ locale }) => {
       </AnimatedSection>
 
       {/* CTA Section */}
-      <CTASection />
+      <CTASection locale={locale} />
     </>
   );
 };

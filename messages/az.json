@@ -120,14 +120,15 @@
   },
   "company": {
     "bannerContent": {
-      "mainParagraph":"Bu gün Universal Qrup QSC dövlət qurumlarının, neft-qaz sənayesinin, inşaat və gəmiçilik sektorlarının etibarlı tərəfdaşıdır. 150-dən çox aktiv korporativ müştərimizin böyük layihələrinin arxasında bizim gücümüz, çevikliyimiz və qüsursuz xidmət modelimiz dayanır.",
-      "paragraph1": "Universal Qrup olaraq 1998-ci ildən Azərbaycan bazarında fəaliyyət göstəririk. İlk gündən məqsədimiz dünyanın qabaqcıl texnologiyalarını ölkəmizə gətirmək və sənayemizi gücləndirmək olub.",
-      "paragraph2": "2013-cü ildə keçdiyimiz rebrendinqdən sonra daha geniş miqyaslı fəaliyyətə başladıq və bu gün artıq yalnız avadanlıq deyil, həm də etimad və dəyərlər təqdim edən marka kimi tanınırıq.",
-      "paragraph3": "Hal-hazırda 1200-dən çox beynəlxalq tədarükçü ilə əməkdaşlıq edirik və portfelimizdə Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Lincoln Electric kimi dünyaca məşhur brendlər yer alır. Təchizat proseslərimizi müştərilərimizin ehtiyacına uyğun olaraq istehsal məntəqəsinə, limanlara və ya birbaşa sahəyə çatdırırıq.",
-      "paragraph4": "Bu gün Universal Qrup QSC dövlət qurumlarının, neft-qaz sənayesinin, inşaat və gəmiçilik sektorlarının etibarlı tərəfdaşıdır. 150-dən çox aktiv korporativ müştərimizin böyük layihələrinin arxasında bizim gücümüz, çevikliyimiz və qüsursuz xidmət modelimiz dayanır.",
+      "mainParagraph": "Bu gün Universal Qrup QSC dövlət qurumlarının, neft-qaz sənayesinin, inşaat və gəmiçilik sektorlarının etibarlı tərəfdaşıdır. 150-dən çox aktiv korporativ müştərimizin böyük layihələrinin arxasında bizim gücümüz, çevikliyimiz və qüsursuz xidmət modelimiz dayanır.",
+      "paragraph1": "Şirkətimiz 2016-cı ildən  “Universal Pro” adı altında fəaliyyət göstərir. Uzun illər ərzində qazanılmış təcrübə və beynəlxalq əlaqələr sayəsində ölkənin aparıcı təchizat şirkətlərindən birinə çevrilmişik.",
+      "paragraph2": "B2B və B2G segmentlərində geniş miqyaslı fəaliyyət göstərən şirkətimiz, 1200-dən çox beynəlxalq tədarükçü ilə işləyir və geniş məhsul portfelinə malikdir. Təchizatın 70%-i xaricdən, 30%-i isə yerli bazardan aparılır.",
       "mainParagraph1": "Universal Qrup 1998-ci ildə \"Universal Makina\" adı ilə fəaliyyətə başlamış, Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Çağsan, Lincoln Electric və Rockwool kimi nüfuzlu brendlərin rəsmi distribyutoru olmuşdur. 2013-cü ildə rebrendinq edilərək \"Universal Qrup\" adını almış və fəaliyyətini B2B/B2G seqmentlərində genişləndirmişdir.",
       "mainParagraph2": "Bu gün Universal Qrup 1200-dən çox beynəlxalq tədarükçü ilə əməkdaşlıq edərək, daxili və xarici bazarlardan 70%-i xarici, 30%-i yerli olmaqla, geniş məhsul portfeli təqdim edir. Layihənin ehtiyacına uyğun olaraq, istehsal məntəqəsindən, limanlardan və ya birbaşa sahəyə çatdırılma həyata keçirir. Şirkət tədarük prosesində tam məsuliyyət daşıyaraq \"qüsursuz xidmət modeli\" ilə fərqlənir.",
       "mainParagraph3": "Hazırda Universal Qrup dövlət qurumları, neft-qaz, inşaat və gəmiçilik sahələrində 150-dən çox korporativ müştərinin etibarlı tərəfdaşıdır."
+    },
+    "popupText": {
+      "title": "Bu Şirkət Haqqında"
     },
     "advantages": {
       "title1": "25+ İl Təcrübə",
@@ -178,8 +179,8 @@
     },
     "azlift": {
       "mainText": "2012-Cİ İLDƏN ETİBARƏN QALDIRICI AVADANLIQLAR VƏ HAVA PLATFORMALARININ İCARƏSİ VƏ SATIŞI SAHƏSİNDƏ FƏALİYYƏT GÖSTƏRİRİK.",
-      "description1": "Azlift şirkəti 2012-ci ildən etibarən qaldırıcı avadanlıqlar və hava platformalarının icarəsi və satışı sahəsində fəaliyyət göstərir. Şirkətimiz müasir texnologiyalar və yüksək keyfiyyətli xidmətlərlə sənayenin ehtiyaclarını qarşılayır.",
-      "description2": "Təcrübəli komandamız və geniş avadanlıq parkımız sayəsində müxtəlif sahələrdə - tikinti, sənaye, neft-qaz və digər sektorlarda etibarlı həllər təqdim edirik.",
+      "description1": "Azlift şirkəti tikinti layihələri, qapalı və açıq iş sahələri, anbarlar, loqistika mərkəzləri və s. üçün qaldırıcı və yükləyici platformaların, inşaat texnikası avadanlıqlarının servisi, icarə və satışı ilə məşğul olur. Çoxillik təcrübəsinə əsaslanaraq icarə menecerimiz sizi ehtiyac yaranarsa yerində ziyarət edir, sizə məhsul siyahısındakı texnikanı deyil, məhz sizə lazım olanı məsləhət görür. ",
+      "description2": "Şirkətimiz Azərbaycan daxilində  AZFEN MMC, Laçın Hava Limanı layihəsi, Şuşa tuneli, Kəlbəcər İsti Su zavodu, Kəlbəcər və Zəngilanda konfrans zalları, Cəbrayıl rayonunda sosial evlərin tikintisi,Qobustanda alternativ enerji mənbələri  kimi iri miqyaslı layihələrə böyük dəstək verərək bu sahədə adından artıq dəfələrlə söz etdirib və etdirməkdədir. Məhsul portfelimizə elektrik və dizellə işləyən qayçılı, teleskopik, dirsəkli və s. personal qaldırıcı platformalar eləcə də avtokar, kran, ekskovator, buldozer, hidravlik qaldırıcı və yükləyici kimi anbar avadanlıqları daxildir.",
       "experienceYears": "İl təcrübə",
       "completedProjects": "Tamamlanmış layihə"
     },
@@ -189,12 +190,26 @@
       "mainText": "AZ GLOBAL MMC MÜXTƏLİF LAYİHƏLƏRDƏ İŞTİRAK EDƏN ÇEVİK TƏCHİZAT VƏ MÜHƏNDİSLİK ŞİRKƏTİDİR",
       "description1": "AZ Global MMC şirkəti beynəlxalq ticarət və logistika sahəsində fəaliyyət göstərən müasir bir şirkətdir. Biz müştərilərimizə dünya standartlarına uyğun xidmətlər təqdim edirik.",
       "description2": "Beynəlxalq bazarlarda etibarlı tərəfdaş olaraq tanınırıq və müştərilərimizin ehtiyaclarını qarşılamaq üçün innovativ həllər təqdim edirik."
+    },
+    "unisan": {
+      "title": "Unisan Sanayi Yapi",
+      "description": "Unisan 2019-cu ildə təsis olunub və Gürcüstanda fəaliyyət göstərir.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Əsas istiqaməti ixtisaslaşdırılmamış, geniş çeşidli malların topdan satışı olan Unisan, müştərilərinə etibarlı partnyor kimi fərqli məhsul qruplarını vahid mərkəzdən təqdim edir. Şirkət, müasir yanaşmaları ilə əməkdaşlarına rahatlıq və davamlı təchizat imkanları yaradır.",
+      "description2": "Uluslararası pazarlarda güvenilir bir ortak olarak tanınıyoruz ve müşterilerimizin ihtiyaçlarını karşılamak için yenilikçi çözümler sunuyoruz."
+    },
+    "leading": {
+      "title": "Leading Supply Solution",
+      "description": "Unisun 2019-cu ildə təsis olunub və Gürcüstanda fəaliyyət göstərir.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Leading Supply Solutions 2013-cü ildən fəaliyyət göstərir və 2021-ci ildən QSC statusu ilə bazarda mövqeyini daha da gücləndirib. Şirkət ixtisaslaşdırılmamış topdansatış fəaliyyəti ilə yanaşı, aralıq məhsulların və geniş çeşidli malların topdan satışı üzrə agentlik xidmətləri təqdim edir.",
+      "description2": "Peşəkar yanaşma və geniş əməkdaşlıq şəbəkəsi ilə Leading Supply Solutions müştərilərinə etibarlı və çevik həllər təklif edir."
     }
   },
   "companyTabs": {
     "missionVision": "Missiya və Vizyon",
     "timeline": "Tarixçə",
-    "aboutCompany": "Şirkət Haqqında"
+    "aboutCompany": "Şirkətlər Haqqında"
   },
   "missionVision": {
     "title": "Missiya və Vizyon",
@@ -245,11 +260,11 @@
     "description": "Şirkət strukturumuz, üstünlüklərimiz və törəmə şirkətlərimiz haqqında daha çox məlumat əldə edin."
   },
   "top5Projects": {
-     "title": "Ən Yaxşı 5 Layihəmiz",
-     "description": "Qabiliyyətlərimizi və təcrübəmizi nümayiş etdirən ən əhəmiyyətli və uğurlu layihələrimiz.",
-     "viewDetails": "Təfərrüatları Gör",
-     "viewAllProjects": "Bütün Layihələri Gör"
-   },
+    "title": "Ən Yaxşı 5 Layihəmiz",
+    "description": "Qabiliyyətlərimizi və təcrübəmizi nümayiş etdirən ən əhəmiyyətli və uğurlu layihələrimiz.",
+    "viewDetails": "Təfərrüatları Gör",
+    "viewAllProjects": "Bütün Layihələri Gör"
+  },
   "openModal": {
     "sectionTitle": "Açıq Vakansiyalar",
     "sectionDescription": "Hazırda aşağıdakı vəzifələr üçün müraciət qəbul edilir",
@@ -307,22 +322,22 @@
       "noVacancies": "Hazırda açıq vakansiya yoxdur",
       "noVacanciesDescription": "Yeni vakansiyalar haqqında məlumat almaq üçün bizimlə əlaqə saxlayın.",
       "modal": {
-      "title": "İş Müraciəti - {position}",
-      "fullName": "Tam Ad",
-      "fullNamePlaceholder": "Tam adınızı daxil edin",
-      "email": "Email",
-      "emailPlaceholder": "Email ünvanınızı daxil edin",
-      "phone": "Telefon",
-      "phonePlaceholder": "Telefon nömrənizi daxil edin",
-      "position": "Vəzifə",
-      "positionPlaceholder": "Müraciət etdiyiniz vəzifə",
-      "aboutYou": "Haqqınızda",
-      "aboutYouPlaceholder": "Özünüz haqqında, təcrübəniz və bu vəzifəyə niyə maraq göstərdiyiniz barədə bizə danışın...",
-      "submitButton": "Göndər",
-      "cancelButton": "Ləğv et"
-    }
-  },
-  "products": {
+        "title": "İş Müraciəti - {position}",
+        "fullName": "Tam Ad",
+        "fullNamePlaceholder": "Tam adınızı daxil edin",
+        "email": "Email",
+        "emailPlaceholder": "Email ünvanınızı daxil edin",
+        "phone": "Telefon",
+        "phonePlaceholder": "Telefon nömrənizi daxil edin",
+        "position": "Vəzifə",
+        "positionPlaceholder": "Müraciət etdiyiniz vəzifə",
+        "aboutYou": "Haqqınızda",
+        "aboutYouPlaceholder": "Özünüz haqqında, təcrübəniz və bu vəzifəyə niyə maraq göstərdiyiniz barədə bizə danışın...",
+        "submitButton": "Göndər",
+        "cancelButton": "Ləğv et"
+      }
+    },
+    "products": {
       "tag": "Məhsullar",
       "title": "Məhsullarımız",
       "description": "Sənaye və tikinti sahələri üçün geniş məhsul çeşidi"

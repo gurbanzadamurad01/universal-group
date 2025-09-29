@@ -85,7 +85,7 @@ const CarouselHero = ({
           {/* CTA Button */}
           <div className="flex flex-col sm:flex-row gap-4 justify-start items-start mb-16">
             <Link
-              href={`/${locale}/contact-us`}
+              href={`/${locale}/products`}
               className="group border-2 border-[#ffe500]/30 hover:border-primary text-[#ffe500] hover:text-primary font-medium px-8 py-4 rounded-lg backdrop-blur-sm transition-all duration-300 hover:bg-[#ffe500] hover:scale-105 hover:text-[#040404]"
             >
               {t('ctaText2')}

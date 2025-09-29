@@ -1,8 +1,9 @@
-'use client';
+"use client";
 
-import { useTranslations } from 'next-intl';
-import AnimatedSection from '@/components/custom-components/AnimatedSection';
-import { Globe } from 'lucide-react';
+import { useState } from "react";
+import { useTranslations } from "next-intl";
+import AnimatedSection from "@/components/custom-components/AnimatedSection";
+import { Globe, X, ZoomIn } from "lucide-react";
 
 const advantages = [
   {
@@ -88,7 +89,20 @@ const advantages = [
 ];
 
 const AboutCompany = () => {
-  const t = useTranslations('company');
+  const t = useTranslations("company");
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<{
+    src: string;
+    alt: string;
+    title: string;
+    description: string;
+  } | null>(null);
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+    setSelectedImage(null);
+    document.body.style.overflow = 'unset'; // Restore scrolling
+  };
 
   return (
     <div>
@@ -129,25 +143,25 @@ const AboutCompany = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Image */}
             <div className="relative">
-              <div className="relative w-full h-96 overflow-hidden rounded-2xl">
-                <img
-                  src="/about-us/oil.png"
-                  alt="Industrial equipment"
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                />
-                {/* Logo overlay */}
-                <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
+              <div 
+                className="relative w-full h-96 overflow-hidden rounded-2xl group bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                {/* Clean white background with subtle gradient */}
+                <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-50"></div>
+
+                {/* Main content image */}
+                <div className="relative w-full h-full flex items-center justify-center p-8">
+                  <img
+                    src="/logo/azlift.png"
+                    alt="AZ Lift operations"
+                    className="w-64 h-64 object-contain transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+
+                {/* Clean logo overlay */}
+                <div className="absolute top-6 right-6 bg-orange-500 px-6 py-3 rounded-xl shadow-md group-hover:shadow-lg transition-all duration-300">
                   <div className="flex items-center space-x-2">
-                    <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
-                      <svg
-                        className="w-5 h-5 text-white"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                      </svg>
-                    </div>
-                    <span className="text-gray-800 font-bold text-lg">
+                    <span className="text-white font-bold text-xl tracking-wide">
                       azlift
                     </span>
                   </div>
@@ -162,40 +176,20 @@ const AboutCompany = () => {
 
               {/* Main text */}
               <div className="space-y-4">
-                <p className="text-gray-700 text-lg leading-relaxed uppercase tracking-wide font-medium">
-                  {t('azlift.mainText')}
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {t("azlift.description1")}
                 </p>
 
-                <p className="text-gray-600 text-base leading-relaxed">
-                  {t('azlift.description1')}
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {t("azlift.description2")}
                 </p>
-
-                <p className="text-gray-600 text-base leading-relaxed">
-                  {t('azlift.description2')}
-                </p>
-              </div>
-
-              {/* Stats */}
-              <div className="grid grid-cols-2 gap-6 mt-8">
-                <div>
-                  <div className="text-3xl font-bold text-orange-500">10+</div>
-                  <div className="text-sm text-gray-500 mt-1">
-                    {t('azlift.experienceYears')}
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-orange-500">500+</div>
-                  <div className="text-sm text-gray-500 mt-1">
-                    {t('azlift.completedProjects')}
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </AnimatedSection>
 
-      {/* AZ Global Section */}
+      {/* Leading Supply Solution Section */}
       <div className="relative py-20 overflow-hidden min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <img
@@ -206,42 +200,49 @@ const AboutCompany = () => {
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-black/70"></div>
         </div>
-        
+
         <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
           <div className="text-center w-full">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#ffe500] text-black rounded-full font-medium mb-6">
               <Globe className="h-5 w-5" />
-              AZ Global
+              Leading Supply Solution
             </div>
-            
+
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              {t('azglobal.title')}
+              {t("leading.title")}
             </h2>
 
             <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              {t('azglobal.description')}
+              {t("leading.description2")}
             </p>
           </div>
         </div>
       </div>
 
-      {/* AZ Global Details Section */}
+      {/* Leading Supply Solution Details Section */}
       <AnimatedSection id="azglobal-details" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Image */}
             <div className="relative">
-              <div className="relative w-full h-96 overflow-hidden rounded-2xl">
-                <img
-                  src="/about-us/building-it.png"
-                  alt="Industrial equipment"
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                />
+              <div 
+                className="relative w-full h-96 overflow-hidden rounded-2xl group bg-gradient-to-br from-white to-gray-50 border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                {/* Main content image */}
+                <div className="relative w-full h-full flex items-center justify-center p-8">
+                  <img
+                    src="/logo/leading-supply-solutions.png"
+                    alt="Leading Supply Solution operations"
+                    className="w-64 h-64 object-contain transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+
                 {/* Logo overlay */}
-                <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
+                <div className="absolute top-6 right-6 bg-orange-500 px-6 py-3 rounded-xl shadow-lg group-hover:bg-orange-600 transition-all duration-300">
                   <div className="flex items-center space-x-2">
-                    <span className="text-gray-800 font-bold text-lg">
-                      AZ<span className="text-orange-500">GLOBAL</span>
+                    <span className="text-white font-bold text-xl tracking-wide">
+                      Leading{" "}
+                      <span className="text-yellow-200">Supply Solution</span>
                     </span>
                   </div>
                 </div>
@@ -255,22 +256,191 @@ const AboutCompany = () => {
 
               {/* Main text */}
               <div className="space-y-4">
-                <p className="text-gray-700 text-lg leading-relaxed uppercase tracking-wide font-medium">
-                  {t('azglobal.mainText')}
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {t("leading.description1")}
                 </p>
-
-                <p className="text-gray-600 text-base leading-relaxed">
-                  {t('azglobal.description1')}
-                </p>
-
-                <p className="text-gray-600 text-base leading-relaxed">
-                  {t('azglobal.description2')}
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {t("leading.description2")}
                 </p>
               </div>
             </div>
           </div>
         </div>
       </AnimatedSection>
+
+      {/* Unisan Sanayi Yapi Section */}
+      <div className="relative py-20 overflow-hidden min-h-screen flex items-center justify-center">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/about-us/building-it.png"
+            alt="Unisan background"
+            className="w-full h-full object-cover"
+          />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/70"></div>
+        </div>
+
+        <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
+          <div className="text-center w-full">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#ffe500] text-black rounded-full font-medium mb-6">
+              <Globe className="h-5 w-5" />
+              Wholesale Partner Georgia
+            </div>
+
+            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+              {t("unisan.title")}
+            </h2>
+
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              {t("unisan.description")}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Unisan Details Section */}
+      <AnimatedSection id="unisan-details" className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <div 
+                className="relative w-full h-96 overflow-hidden rounded-2xl group bg-gradient-to-br from-white to-gray-50 border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                {/* Main content image */}
+                <div className="relative w-full h-full flex items-center justify-center p-8">
+                  <img
+                    src="/logo/unisan.png"
+                    alt="Unisan operations"
+                    className="w-64 h-64 object-contain transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+
+                {/* Logo overlay */}
+                <div className="absolute top-6 right-6 bg-orange-500 px-6 py-3 rounded-xl shadow-lg group-hover:bg-orange-600 transition-all duration-300">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-white font-bold text-xl tracking-wide">
+                      Wholesale <span className="text-yellow-200">Partner</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Left Side - Text Content */}
+            <div className="space-y-6">
+              {/* Orange line accent */}
+              <div className="w-20 h-1 bg-orange-500"></div>
+
+              {/* Main text */}
+              <div className="space-y-4">
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {t("unisan.description")}
+                </p>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {t("unisan.description1")}
+                </p>
+              </div>
+            </div>
+
+            {/* Right Side - Image */}
+            
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Creative Popup Modal */}
+      {isPopupOpen && selectedImage && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 overflow-y-auto">
+          {/* Backdrop with blur effect */}
+          <div 
+            className="absolute inset-0 bg-black/80 backdrop-blur-md transition-opacity duration-300"
+            onClick={closePopup}
+          />
+          
+          {/* Modal Content */}
+          <div className="relative bg-white rounded-3xl shadow-2xl max-w-5xl w-full my-8 transform transition-all duration-300 scale-100 animate-in zoom-in-95">
+            {/* Header */}
+            <div className="relative bg-gradient-to-r from-orange-500 to-orange-600 p-6">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 bg-white/20 rounded-full">
+                    <ZoomIn className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white">{selectedImage.title}</h3>
+                    <p className="text-orange-100 text-sm">Company Details</p>
+                  </div>
+                </div>
+                <button
+                  onClick={closePopup}
+                  className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200 group"
+                >
+                  <X className="w-6 h-6 text-white group-hover:rotate-90 transition-transform duration-200" />
+                </button>
+              </div>
+            </div>
+
+            {/* Content */}
+            <div className="p-8 max-h-[70vh] overflow-y-auto">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+                {/* Image Section */}
+                <div className="relative">
+                  <div className="relative bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-6 shadow-inner">
+                    <img
+                      src={selectedImage.src}
+                      alt={selectedImage.alt}
+                      className="w-full h-64 object-contain rounded-xl transition-transform duration-500 hover:scale-105"
+                    />
+                    {/* Decorative elements */}
+                    <div className="absolute top-4 right-4 w-16 h-16 bg-orange-500/10 rounded-full blur-xl"></div>
+                    <div className="absolute bottom-4 left-4 w-12 h-12 bg-blue-500/10 rounded-full blur-xl"></div>
+                  </div>
+                </div>
+
+                {/* Text Section */}
+                <div className="space-y-6">
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-2">
+                      <div className="w-1 h-8 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full"></div>
+                      <h4 className="text-xl font-semibold text-gray-900">{t('popupText.title')}</h4>
+                    </div>
+                    <p className="text-gray-600 leading-relaxed text-base">
+                      {selectedImage.description}
+                    </p>
+                  </div>
+
+                  {/* Features */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-xl border border-orange-200">
+                      <div className="flex items-center space-x-2 mb-2">
+                        <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                        <span className="text-sm font-medium text-orange-800">Quality</span>
+                      </div>
+                      <p className="text-xs text-orange-700">International Standards</p>
+                    </div>
+                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200">
+                      <div className="flex items-center space-x-2 mb-2">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                        <span className="text-sm font-medium text-blue-800">Experience</span>
+                      </div>
+                      <p className="text-xs text-blue-700">25+ Years</p>
+                    </div>
+                  </div>
+
+                  {/* Action Button */}
+                  <div className="pt-4">
+                    <button 
+                      onClick={closePopup}
+                      className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                    >
+                      Learn More About Our Services
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
