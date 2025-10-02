@@ -8,8 +8,16 @@ import { useTranslations } from 'next-intl';
 
 import MotionContainer from "@/components/custom-components/MotionContainer";
 import LanguageSelector from "../ui/language-selector";
+// Define types for navigation items
+interface NavItem {
+  path: string;
+  label: string;
+  isLink?: boolean;
+  submenu?: NavItem[];
+}
+
 // Create navigation items dynamically
-const createNavItems = (t: any) => {
+const createNavItems = (t: (key: string) => string): NavItem[] => {
   return [
     { path: "/", label: t('home'), isLink: true },
     {
@@ -106,7 +114,7 @@ const DesktopNav = ({
   isScrolled: boolean;
   isHomePage: boolean;
   locale: string;
-  navItems: any[];
+  navItems: NavItem[];
 }) => {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
 
@@ -206,7 +214,7 @@ const MobileNav = ({
   setIsMenuOpen: (open: boolean) => void;
   isActive: (path: string) => boolean;
   locale: string;
-  navItems: any[];
+  navItems: NavItem[];
 }) => {
   const [expandedItems, setExpandedItems] = useState<string[]>([]);
 
