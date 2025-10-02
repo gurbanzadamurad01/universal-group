@@ -72,7 +72,7 @@ const CarouselHero = ({
           }`}
         >
           {/* Main headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white mb-6 leading-tight text-left">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white mb-6 leading-tight text-left mt-20 sm:mt-0">
             {t('title1')}{" "}
             <span className="text-[#ffe500]">{t('title2')}</span>
           </h1>

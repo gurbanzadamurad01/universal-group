@@ -16,8 +16,8 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
   children,
   id,
   className = '',
-  threshold = 0.1,
-  rootMargin = '0px 0px -50px 0px',
+  threshold = 0.05,
+  rootMargin = '0px 0px -10px 0px',
   animationClass = 'opacity-0 translate-y-8'
 }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,6 +27,8 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
+          // Once visible, disconnect the observer to improve performance
+          observer.disconnect();
         }
       },
       {
@@ -35,15 +37,17 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
       }
     );
 
-    const element = document.getElementById(id);
-    if (element) {
-      observer.observe(element);
-    }
+    // Small timeout to ensure the component is mounted
+    const timer = setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        observer.observe(element);
+      }
+    }, 100);
 
     return () => {
-      if (element) {
-        observer.unobserve(element);
-      }
+      clearTimeout(timer);
+      observer.disconnect();
     };
   }, [id, threshold, rootMargin]);
 

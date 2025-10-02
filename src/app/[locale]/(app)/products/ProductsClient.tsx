@@ -787,23 +787,20 @@ const otherTexts = {
 
 const ProductsClient = ({ locale }: { locale: "az" | "en" | "tr" }) => {
   return (
-    <AnimatedSection id="section-products" className=" bg-white">
+    <AnimatedSection id="section-products" className="bg-white" threshold={0.01} rootMargin="0px">
       {/* Products Section */}
-      <section className="container mx-auto py-20">
+      <section className="container mx-auto py-12 px-4 sm:py-16 sm:px-6 md:py-20">
         <div className="">
           {/* Products Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
             {productCategories.map((category, index) => (
               <div
                 key={category.id}
-                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 overflow-hidden animate-fade-in-up"
-                style={{
-                  animationDelay: `${index * 100}ms`,
-                }}
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 overflow-hidden flex flex-col h-full"
               >
                 {/* Card Header with Image and Icon */}
                 {/* Top Image Section */}
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-40 sm:h-48 overflow-hidden">
                   {/* Background Image */}
                   <div className="absolute inset-0">
                     <img
@@ -836,13 +833,13 @@ const ProductsClient = ({ locale }: { locale: "az" | "en" | "tr" }) => {
                 </div>
 
                 {/* Body with subcategories tags */}
-                <div className="p-5 bg-white">
-                  <div className="flex flex-col gap-2">
+                <div className="p-4 sm:p-5 bg-white flex-grow">
+                  <div className="flex flex-wrap gap-2">
                     {category.subcategories[locale].map(
                       (subcategory, subIndex) => (
                         <span
                           key={subIndex}
-                          className="inline-block px-3 py-1.5  text-[#4d4d4d] text-xs font-medium rounded-lg border border-[#ffe500]/20 hover:border-[#ffe500] hover:text-[#040404] transition-all duration-300 shadow-sm"
+                          className="inline-block px-2.5 py-1.5 text-[#4d4d4d] text-xs font-medium rounded-lg border border-[#ffe500]/20 hover:border-[#ffe500] hover:text-[#040404] transition-all duration-300 shadow-sm mb-1 mr-1"
                         >
                           {subcategory}
                         </span>
