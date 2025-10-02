@@ -5,7 +5,6 @@ import {NextIntlClientProvider} from 'next-intl';
 import { setRequestLocale } from "next-intl/server";
 import { locales } from "@/config";
 
-import "./globals.css";
 import MoveTop from "@/components/custom-components/MoveTop";
 
 
