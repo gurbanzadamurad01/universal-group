@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description: "Universal Group - engineering service",
 };
 
+
 export default function RootLayout({
   children,
 }: {
