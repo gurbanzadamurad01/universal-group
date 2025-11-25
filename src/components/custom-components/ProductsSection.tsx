@@ -22,13 +22,12 @@ interface Project {
   services: string[];
 }
 
-const ProductsSection = ({locale}: {locale: string}) => {
-
+const ProductsSection = ({ locale }: { locale: string }) => {
   const projects: Project[] = [
     {
       id: 1,
       title: {
-        az:"Bakı Metropoliteni Genişləndirilməsi",
+        az: "Bakı Metropoliteni Genişləndirilməsi",
         en: "Expansion of the Bakı Metropolitan City",
         tr: "Bakı Metropolitenin Genişlenmesi",
       },
@@ -36,24 +35,24 @@ const ProductsSection = ({locale}: {locale: string}) => {
       description: {
         az: "Şəhər nəqliyyat sisteminin müasirləşdirilməsi və genişləndirilməsi layihəsi",
         en: "Urban Transport System Modernization and Expansion Project",
-        tr: "Şehir İçi Ulaşım Sisteminin Modernizasyonu ve Genişletilmesi Projesi"
+        tr: "Şehir İçi Ulaşım Sisteminin Modernizasyonu ve Genişletilmesi Projesi",
       },
       image:
         "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop",
       status: {
-        az: "Tamamlanmış",
-        en: "Completed",
-        tr: "Tamamlanmış",
+        az: "Davam edir",
+        en: "Ongoing",
+        tr: "Devam Ediyor",
       },
       category: {
-        az: "İnfrastruktur",
-        en: "Infrastructure",
-        tr: "Infrastruktur"
+        az: "Mərdiməkan",
+        en: "Merdimekan",
+        tr: "Merdimekan",
       },
       location: {
         az: "Bakı, Azərbaycan",
         en: "Bakı, Azerbaijan",
-        tr: "Bakı, Azerbaycan"
+        tr: "Bakı, Azerbaycan",
       },
       startDate: "2022-01",
       endDate: "2024-06",
@@ -73,8 +72,7 @@ const ProductsSection = ({locale}: {locale: string}) => {
         en: "Enhancing Oil Production and Improving Infrastructure",
         tr: "Tübitak'ün Qaz Hizmetleri ve İnfrastruktur Geliştirme Projesi",
       },
-      image:
-        "/products/Shahdeniz Qaz Sahasi Expansion.jpg",
+      image: "/products/Shahdeniz Qaz Sahasi Expansion.jpg",
       status: {
         az: "Davam edir",
         en: "Ongoing",
@@ -83,12 +81,12 @@ const ProductsSection = ({locale}: {locale: string}) => {
       category: {
         az: "Neft və Qaz",
         en: "Oil and Gas",
-        tr: "Oily and Gas"
+        tr: "Oily and Gas",
       },
       location: {
         az: "Xəzər dənizi",
         en: "Xezer Sea",
-        tr: "Hazar Denizi"
+        tr: "Hazar Denizi",
       },
       startDate: "2023-03",
       endDate: "2025-12",
@@ -118,7 +116,7 @@ const ProductsSection = ({locale}: {locale: string}) => {
       category: {
         az: "Gəmiçilik",
         en: "Shipyard",
-        tr: "Gemi Fabrikası"
+        tr: "Gemi Fabrikası",
       },
       location: {
         az: "Bakı Limanı",
@@ -141,7 +139,7 @@ const ProductsSection = ({locale}: {locale: string}) => {
       description: {
         az: "Elektrik enerjisi infrastrukturunun müasirləşdirilməsi layihəsi",
         en: "Electricity Infrastructure Modernization Project",
-        tr: "Elektrik Enerjisi Altyapısının Modernizasyonu Projesi"
+        tr: "Elektrik Enerjisi Altyapısının Modernizasyonu Projesi",
       },
       image:
         "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=400&h=250&fit=crop",
@@ -153,12 +151,12 @@ const ProductsSection = ({locale}: {locale: string}) => {
       category: {
         az: "İnfrastruktur",
         en: "Infrastructure",
-        tr: "Infrastruktur"
+        tr: "Infrastruktur",
       },
       location: {
         az: "Ümumrespublika",
         en: "United Republic of Azerbaijan",
-        tr: "Azerbaycan Cumhuriyeti"
+        tr: "Azerbaycan Cumhuriyeti",
       },
       startDate: "2023-01",
       endDate: "2025-08",
@@ -183,22 +181,21 @@ const ProductsSection = ({locale}: {locale: string}) => {
         en: "New Oil Platform Construction and Expansion",
         tr: "Yeni Neft Platformunun Kurulması ve Genişletilmesi",
       },
-      image:
-        "/products/Xezer Sea Oil Platform.jpg",
+      image: "/products/Xezer Sea Oil Platform.jpg",
       status: {
-        az: "Tamamlanmış",
-        en: "Completed",
-        tr: "Tamamlanmış",
+        az: "Davam edir",
+        en: "Ongoing",
+        tr: "Devam Ediyor",
       },
       category: {
         az: "Neft və Qaz",
         en: "Oil and Gas",
-        tr: "Oily and Gas"
+        tr: "Oily and Gas",
       },
-      location:{
+      location: {
         az: "Xəzər dənizi",
         en: "Xezer Sea",
-        tr: "Hazar Denizi"
+        tr: "Hazar Denizi",
       },
       startDate: "2021-06",
       endDate: "2023-11",
@@ -228,12 +225,12 @@ const ProductsSection = ({locale}: {locale: string}) => {
       category: {
         az: "Gəmiçilik",
         en: "Shipyard",
-        tr: "Gemi Fabrikası"
+        tr: "Gemi Fabrikası",
       },
       location: {
         az: "Bakı",
         en: "Bakı",
-        tr: "Bakı"
+        tr: "Bakı",
       },
       startDate: "2024-12",
       endDate: "2026-09",
@@ -245,9 +242,89 @@ const ProductsSection = ({locale}: {locale: string}) => {
         "Logistika",
       ],
     },
+    {
+      id: 7,
+      title: {
+        az: "Azfen Neft və Qaz İnfrastruktur Layihəsi",
+        en: "Azfen Oil & Gas Infrastructure Project",
+        tr: "Azfen Petrol ve Gaz Altyapı Projesi",
+      },
+      company: "Azfen",
+      description: {
+        az: "Neft və qaz infrastrukturu üçün tikinti, mühəndislik və təchizat işləri",
+        en: "Construction, engineering, and procurement works for oil & gas infrastructure",
+        tr: "Petrol ve gaz altyapısı için inşaat, mühendislik ve tedarik çalışmaları",
+      },
+      image:
+        "/products/azfen.jpg",
+      status: {
+        az: "Davam edir",
+        en: "Ongoing",
+        tr: "Devam Ediyor",
+      },
+      category: {
+        az: "Neft və Qaz",
+        en: "Oil and Gas",
+        tr: "Petrol ve Gaz",
+      },
+      location: {
+        az: "Xəzər regionu",
+        en: "Caspian region",
+        tr: "Hazar bölgesi",
+      },
+      startDate: "2023-05",
+      endDate: "2026-01",
+      teamCount: 105,
+      services: [
+        "Mühəndislik",
+        "Təchizat həlləri",
+        "Boru xətti tikintisi",
+        "Offshore logistika",
+        "Quraşdırma və inteqrasiya",
+      ],
+    },
+    {
+      id: 8,
+      title: {
+        az: "Pasha Construction Premium Yaşayış Kompleksi",
+        en: "Pasha Construction Premium Residence Complex",
+        tr: "Pasha Construction Premium Konut Kompleksi",
+      },
+      company: "Pasha Construction",
+      description: {
+        az: "Premium təbəqə üçün müasir yaşayış kompleksinin tikintisi",
+        en: "Construction of a modern premium-class residential complex",
+        tr: "Modern ve premium sınıf bir konut kompleksinin inşası",
+      },
+      image:
+        "https://images.unsplash.com/photo-1501183638710-841dd1904471?w=400&h=250&fit=crop",
+      status: {
+        az: "Davam edir",
+        en: "Ongoing",
+        tr: "Devam Ediyor",
+      },
+      category: {
+        az: "Tikinti",
+        en: "Construction",
+        tr: "İnşaat",
+      },
+      location: {
+        az: "Bakı",
+        en: "Baku",
+        tr: "Bakü",
+      },
+      startDate: "2025-02",
+      endDate: "2027-09",
+      teamCount: 110,
+      services: [
+        "Tikinti",
+        "Mühəndislik",
+        "Memarlıq",
+        "Təchizat həlləri",
+        "Layihə idarəetməsi",
+      ],
+    },
   ];
-
-
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -261,7 +338,6 @@ const ProductsSection = ({locale}: {locale: string}) => {
                 key={project.id}
                 className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group border border-gray-100 hover:border-[#ffe500]/30"
               >
-
                 {/* Image Section */}
                 <div className="relative h-48 overflow-hidden">
                   <img
@@ -270,23 +346,19 @@ const ProductsSection = ({locale}: {locale: string}) => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                  
+
                   {/* Status Badge */}
                   <div className="absolute top-3 left-3">
-                    <span
-                        className="px-3 py-1 rounded-full text-xs font-medium bg-[#ffe500] text-gray-900"
-                      >
-                        {project.status[locale]}
-                      </span>
-                    </div>
-                    <div className="absolute top-3 right-3">
-                      <span
-                        className="px-3 py-1 rounded-full text-xs font-medium bg-black/20 text-white backdrop-blur-sm"
-                      >
-                        {project.category[locale]}
-                      </span>
-                    </div>
+                    <span className="px-3 py-1 rounded-full text-xs font-medium bg-[#ffe500] text-gray-900">
+                      {project.status[locale]}
+                    </span>
                   </div>
+                  <div className="absolute top-3 right-3">
+                    <span className="px-3 py-1 rounded-full text-xs font-medium bg-black/20 text-white backdrop-blur-sm">
+                      {project.category[locale]}
+                    </span>
+                  </div>
+                </div>
 
                 {/* Content */}
                 <div className="p-5">
@@ -299,45 +371,42 @@ const ProductsSection = ({locale}: {locale: string}) => {
                       {project.company}
                     </p>
                   </div>
-                  <p className="text-sm text-gray-600 mb-4 line-clamp-2"
-                    >
-                      {project.description[locale]}
-                    </p>
-                    
-                    {/* Key Info */}
-                    <div className="space-y-2 mb-4">
-                      <div className="flex items-center text-xs text-gray-500">
-                        <MapPin className="w-3 h-3 mr-2" />
-                        {project.location[locale]}
-                      </div>
-                      <div className="flex items-center text-xs text-gray-500">
-                        <Clock className="w-3 h-3 mr-2" />
-                        {project.startDate} - {project.endDate}
-                      </div>
-                    </div>
+                  <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                    {project.description[locale]}
+                  </p>
 
-                    {/* Services */}
-                    <div className="flex flex-wrap gap-1">
-                      {project.services.slice(0, 3).map((service, index) => (
-                        <span
-                          key={index}
-                          className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md"
-                        >
-                          {service}
-                        </span>
-                      ))}
-                      {project.services.length > 3 && (
-                        <span className="px-2 py-1 bg-[#ffe500] text-gray-900 text-xs rounded-md font-medium">
-                          +{project.services.length - 3}
-                        </span>
-                      )}
+                  {/* Key Info */}
+                  {/* <div className="space-y-2 mb-4">
+                    <div className="flex items-center text-xs text-gray-500">
+                      <MapPin className="w-3 h-3 mr-2" />
+                      {project.location[locale]}
                     </div>
-                  </div>
+                    <div className="flex items-center text-xs text-gray-500">
+                      <Clock className="w-3 h-3 mr-2" />
+                      {project.startDate} - {project.endDate}
+                    </div>
+                  </div> */}
+
+                  {/* Services */}
+                  {/* <div className="flex flex-wrap gap-1">
+                    {project.services.slice(0, 3).map((service, index) => (
+                      <span
+                        key={index}
+                        className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md"
+                      >
+                        {service}
+                      </span>
+                    ))}
+                    {project.services.length > 3 && (
+                      <span className="px-2 py-1 bg-[#ffe500] text-gray-900 text-xs rounded-md font-medium">
+                        +{project.services.length - 3}
+                      </span>
+                    )}
+                  </div> */}
+                </div>
               </div>
             ))}
           </div>
-
-
         </div>
       </section>
     </div>

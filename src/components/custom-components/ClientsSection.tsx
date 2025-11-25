@@ -14,7 +14,7 @@ interface Client {
   image: string;
 }
 
-const ClientsSection = ({ locale }: { locale: "az" | "en" | "tr" }) => {  
+const ClientsSection = ({ locale }: { locale: "az" | "en" | "tr" }) => {
   // Client data
   const clients: Client[] = [
     {
@@ -377,10 +377,32 @@ const ClientsSection = ({ locale }: { locale: "az" | "en" | "tr" }) => {
       },
       image: "/clients-logo/Meliorasiya.png",
     },
+    {
+      id: 16,
+      title: {
+        az: "Pasha Construction",
+        en: "Pasha Construction",
+        tr: "Pasha Construction",
+      },
+      category: {
+        az: "Özəl Şirkətlər",
+        en: "Private Companies",
+        tr: "Özel Şirketler",
+      },
+      company: {
+        az: "Pasha Construction",
+        en: "Pasha Construction",
+        tr: "Pasha Construction",
+      },
+      status: {
+        az: "Əsas Müştəri",
+        en: "Main Customer",
+        tr: "Ana Müşteri",
+      },
+      image: "/clients-logo/pasha.png",
+    },
   ];
 
-
-  
   return (
     <section className="py-16 px-6 bg-gray-50">
       <div className="container mx-auto">
