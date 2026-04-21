@@ -1,0 +1,356 @@
+{
+  "navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "company": "Şirket",
+    "projects": "Projeler",
+    "partners": "Ortaklar",
+    "team": "Takım",
+    "vacations": "İş ilanları",
+    "careers": "Kariyer",
+    "clients": "Müşteriler",
+    "products": "Ürünler",
+    "services": "Hizmetler",
+    "contact": "İletişim"
+  },
+  "common": {
+    "readMore": "Devamını Oku",
+    "learnMore": "Daha Fazla Öğren",
+    "getStarted": "Başlayın",
+    "contactUs": "Bize Ulaşın",
+    "viewAll": "Tümünü Görüntüle",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı"
+  },
+  "hero": {
+    "title1": "Universal",
+    "title2": "Group",
+    "subtitle": "Ticaret Çözümleri",
+    "description": "1998'den beri endüstri sektöründe güven simgesi haline geldik. 1200+ uluslararası tedarikçi, yüzlerce marka, onlarca sektör. Universal Group — B2B ve B2G projeleri için stratejik tedarik, kusursuz hizmet modeli ve tam sorumluluk ilkesi ile öne çıkar. Bugün 150+ kurumsal müşterinin arkasında duran güç biziz.",
+    "ctaText": "Bizimle İletişime Geçin",
+    "ctaText2": "Ürünlerimiz",
+    "location": "Bakü, Azerbaycan",
+    "copyright": "© 2025 Tüm hakları saklıdır.",
+    "email": "info@universalgroup.az",
+    "phone1": "+994125266655",
+    "phone2": "+994515550555"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "Mühendislik çözümleri ve teknik hizmetlerde önde gelen bir şirketiz."
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "description": "İş ihtiyaçlarınız için kapsamlı mühendislik ve teknik çözümler."
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "description": "Çeşitli endüstriler için yüksek kaliteli ürünler ve ekipmanlar."
+  },
+  "contact": {
+    "info": {
+      "phone": "Telefon",
+      "email": "E-posta",
+      "address": "Adres",
+      "location": "Bakü, Azerbaycan"
+    },
+    "form": {
+      "title": "Bize mesaj gönderin",
+      "description": "Formu doldurun, en kısa sürede sizinle iletişime geçeceğiz",
+      "name": "Ad ve Soyad",
+      "namePlaceholder": "Adınızı ve soyadınızı girin",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "company": "Şirket",
+      "companyPlaceholder": "Şirket adını girin",
+      "phone": "Telefon",
+      "phonePlaceholder": "Telefon numaranızı girin",
+      "subject": "Konu",
+      "subjectPlaceholder": "Konu seçin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınızı buraya yazın...",
+      "submit": "Mesajı gönder",
+      "submitting": "Gönderiliyor...",
+      "successMessage": "✓ Mesajınız başarıyla gönderildi! Yakında sizinle iletişime geçeceğiz."
+    },
+    "subjects": {
+      "general": "Genel bilgi",
+      "product": "Ürün sorgusu",
+      "service": "Hizmet sorgusu",
+      "partnership": "Ortaklık teklifi",
+      "support": "Teknik destek",
+      "other": "Diğer"
+    },
+    "map": {
+      "title": "Konumumuz"
+    }
+  },
+  "footer": {
+    "tagline": "Perspektiflerinizi Genişletin",
+    "description": "25 yıllık deneyimle uluslararası düzeyde tedarik çözümleri sunan onlarca yıllık ortağınız. Geniş ürün yelpazesi ve profesyonel hizmetlerle müşterilerimizin ihtiyaçlarını en üst düzeyde karşılıyoruz.",
+    "experienceYears": "25 yıllık deneyim",
+    "location": "Azerbaycan",
+    "company": "Şirket",
+    "aboutUs": "Hakkımızda",
+    "aboutUsDesc": "Hikayemiz",
+    "team": "Takım",
+    "teamDesc": "Profesyonel kolektif",
+    "careers": "Kariyer",
+    "careersDesc": "Kariyer fırsatları",
+    "projects": "Projeler",
+    "projectsDesc": "Başarı hikayeleri",
+    "clients": "Müşteriler",
+    "clientsDesc": "Ortaklarımız",
+    "contact": "İletişim",
+    "office": "Ofis",
+    "mobile": "Mobil",
+    "email": "Email",
+    "headquarters": "Genel merkez",
+    "address": "Bakü, Azerbaycan",
+    "copyright": "© 2025 Universal Group. Tüm hakları saklıdır.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfUse": "Kullanım Şartları",
+    "siteMap": "Site Haritası"
+  },
+  "cta": {
+    "title": "Bizimle işbirliği yapmak ister misiniz?",
+    "description": "25 yıllık deneyimimiz ve uluslararası standartlarımızla projelerinizin başarısına katkıda bulunmaya hazırız",
+    "buttonText": "Bizimle İletişime Geçin"
+  },
+  "company": {
+    "bannerContent": {
+      "mainParagraph": "Bugün Universal Grup QSC devlet kurumlarının, petrol-gaz endüstrisinin, inşaat ve gemi sektörlerinin güvenilir ortağıdır. 150'den fazla aktif kurumsal müşterimizin büyük projelerinin arkasında bizim gücümüz, çevikliğimiz ve kusursuz hizmet modelimiz durmaktadır.",
+      "paragraph1": "Firmamız 2016 yılından bu yana \"Universal Pro\" ismiyle faaliyet göstermektedir. Uzun yıllar boyunca edindiğimiz deneyim ve uluslararası ilişkiler sayesinde ülkemizin önde gelen tedarik şirketlerinden biri haline geldik.",
+      "paragraph2": "B2B ve B2G segmentlerinde büyük ölçekte faaliyet gösteren firmamız, 1.200'den fazla uluslararası tedarikçiyle çalışmakta olup geniş bir ürün portföyüne sahiptir. Tedarikin %70'i yurt dışından, %30'u ise iç pazardan sağlanmaktadır.",
+      "mainParagraph1": "Universal Qrup 1998 yılında \"Universal Makina\" adıyla faaliyete başlamış, Bosch, Saint Gobain, Klingspor, Telwin, Jotun, ESAB, Çağsan, Lincoln Electric ve Rockwool gibi saygın markaların resmi distribütörü olmuştur. 2013 yılında yeniden markalaşarak \"Universal Qrup\" adını almış ve faaliyetlerini B2B/B2G segmentlerinde genişletmiştir.",
+      "mainParagraph2": "Bugün Universal Qrup, 1.200'den fazla uluslararası tedarikçi ile işbirliği yaparak, %70'i yurt dışından, %30'u yerel olmak üzere hem iç hem de dış pazarlardan geniş bir ürün portföyü sunmaktadır. Projenin ihtiyacına göre, ürünleri üretim yerlerinden, limanlardan veya doğrudan sahaya teslim etmektedir. Şirket, tedarik sürecinin tamamından sorumluluk alarak \"kusursuz hizmet modeli\" ile öne çıkmaktadır.",
+      "mainParagraph3": "Hâlihazırda Universal Qrup; devlet kurumları, petrol ve gaz, inşaat ve gemi inşa sektörlerinde 150'den fazla kurumsal müşterinin güvenilir iş ortağıdır."
+    },
+    "advantages": {
+      "title1": "25+ Yıl Deneyim",
+      "description1": "Uzun yıllar boyunca kazanılan deneyim ve uluslararası ilişkiler sayesinde ülkenin önde gelen tedarik şirketlerinden biri haline geldik.",
+      "title2": "1200+ Tedarikçi",
+      "description2": "B2B ve B2C segmentlerinde geniş ölçekli faaliyet gösteren şirketimiz, 1200'den fazla uluslararası tedarikçi ile çalışır ve geniş ürün portföyüne sahiptir.",
+      "title3": "Kalite Garantisi",
+      "description3": "Tedarikimizin %70'i yurtdışından, %30'u ise yerel pazardan sağlanır. Tüm ürünlerimiz uluslararası kalite standartlarına uygundur ve garanti ile sağlanır.",
+      "title4": "24/7 Destek",
+      "description4": "Müşterilerimize 24 saat, haftanın 7 günü destek hizmeti sunuyoruz. Herhangi bir sorun veya sorunuz olduğunda bize başvurabilirsiniz."
+    },
+    "missions": {
+      "sectionTitle": "Misyonumuz",
+      "sectionDescription": "Müşterilerimize en yüksek kaliteli hizmet sunmak ve uluslararası standartlara uygun çözümler sunmak temel misyonumuzdur.",
+      "title1": "Kalite ve Güvenilirlik",
+      "description1": "En yüksek kalite standartlarına uygun ürün ve hizmetler sunarak müşterilerimizin güvenini kazanıyoruz.",
+      "title2": "Uluslararası Standartlar",
+      "description2": "Dünya çapında tanınan uluslararası standartlara uygunluk ve sertifikasyon süreçlerini uyguluyoruz.",
+      "title3": "Müşteri Memnuniyyeti",
+      "description3": "Müşterilerimizin ihtiyaçlarını anlamak ve beklentilerini aşmak temel önceliğimizdir."
+    },
+    "goals": {
+      "sectionTitle": "Hedeflerimiz",
+      "sectionDescription": "2025'e kadar elde etmeyi planladığımız stratejik hedefler ve uzun vadeli vizyonumuz.",
+      "title1": "Pazar Lideri",
+      "description1": "Azerbaycan pazarında önde gelen tedarik şirketi olmak",
+      "title2": "Genişleme",
+      "description2": "Bölgesel pazarlarda faaliyetin genişletilmesi",
+      "title3": "Sürdürülebilirlik",
+      "description3": "Ekolojik açıdan sürdürülebilir iş modeli",
+      "title4": "Teknoloji",
+      "description4": "Dijital dönüşüm ve otomasyon",
+      "targetLabel": "Hedef:"
+    },
+    "values": {
+      "sectionTitle": "Değerlerimiz",
+      "sectionDescription": "Faaliyetlerimizi yönlendiren temel ilkeler ve değerler",
+      "title1": "Güvenilirlik",
+      "description1": "Her projede verdiğimiz söze sadık kalır, ortaklarımız için her zaman güvenilir tedarikçi oluruz.",
+      "title2": "Kalite",
+      "description2": "Ürün seçiminden teslimat aşamasına kadar - her detayda yüksek standartlara uyarız.",
+      "title3": "İnsan Sermayesi",
+      "description3": "Çalışanlarımızın işlerini tutkuyla yapmaları, yeniliklere imza atmaları ve hem kişisel hem de profesyonel düzeyde gelişim sağlamaları için her zaman destek oluyoruz.",
+      "title4": "Profesyonellik",
+      "description4": "Ekibimiz teknik bilgi ve endüstri deneyimini birleştirerek müşterilerimize çözüm odaklı hizmet sunar.",
+      "title5": "Şeffaflık",
+      "description5": "Tedarik sürecini açık ve izlenebilir şekilde organize ediyoruz - her adımda hesap verebilirlik bizim için önemlidir."
+    },
+    "azlift": {
+      "mainText": "2012'DEN İTİBAREN KALDIRMA EKİPMANLARI VE HAVA PLATFORMLARININ KİRALAMA VE SATIŞI ALANINDA FAALİYET GÖSTERİYORUZ.",
+      "description1": "Azlift şirketi, inşaat projeleri, iç ve dış çalışma alanları, depolar, lojistik merkezleri vb. için kaldırma ve yükleme platformları, inşaat ekipmanlarının servis, kiralama ve satışı ile ilgilenmektedir. Uzun yıllara dayanan deneyime sahip kiralama yöneticimiz, gerektiğinde sizi yerinde ziyaret ederek, sadece ürün listesindeki ekipmanlarla sınırlı kalmayıp, tam olarak neye ihtiyacınız olduğu konusunda size tavsiyelerde bulunur.",
+      "description2": "Şirketimiz, Azerbaycan'da AZFEN LLC, Laçin Havalimanı projesi, Şuşa tüneli, Kelbecer Sıcak Su Tesisi, Kelbecer ve Zengilan'daki konferans salonları, Cebrayil bölgesinde sosyal konut inşaatı ve Gobustan'da alternatif enerji kaynakları gibi büyük ölçekli projelere sağladığı büyük destekle bu alanda adını defalarca duyurmuştur. Ürün portföyümüzde elektrikli ve dizel motorlu makaslı, teleskopik, mafsallı vb. personel kaldırma platformlarının yanı sıra otomatik araba, vinç, ekskavatör, buldozer, hidrolik kaldırıcı ve yükleyici gibi depo ekipmanları da bulunmaktadır.",
+      "experienceYears": "Yıl deneyim",
+      "completedProjects": "Tamamlanan proje"
+    },
+    "azglobal": {
+      "title": "AZ GLOBAL LLC",
+      "description": "AZ Global LLC uluslararası ticaret ve lojistik alanında faaliyet gösteren modern bir şirkettir. Müşterilerimize dünya standartlarında hizmetler sunuyoruz ve uluslararası pazarlarda güvenilir bir ortak olarak tanınıyoruz.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "AZ Global LLC uluslararası ticaret ve lojistik alanında faaliyet gösteren modern bir şirkettir. Müşterilerimize dünya standartlarında hizmetler sunuyoruz.",
+      "description2": "Uluslararası pazarlarda güvenilir bir ortak olarak tanınıyoruz ve müşterilerimizin ihtiyaçlarını karşılamak için yenilikçi çözümler sunuyoruz."
+    },
+    "unisan": {
+      "title": "Unisan Sanayi Yapi",
+      "description": "Unisan, 2019 yılında kurulmuş olup Gürcistan'da faaliyet göstermektedir.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Ana faaliyet alanı uzmanlaşmamış, geniş ürün yelpazesine sahip ürünlerin toptan satışı olan Unisan, müşterilerine güvenilir bir ortak olarak tek bir merkezden farklı ürün gruplarını sunmaktadır. Şirket, modern yaklaşımlarıyla çalışanlarına kolaylık ve sürekli tedarik olanakları yaratmaktadır.",
+      "description2": "Uluslararası pazarlarda güvenilir bir ortak olarak tanınıyoruz ve müşterilerimizin ihtiyaçlarını karşılamak için yenilikçi çözümler sunuyoruz."
+    },
+    "leading": {
+      "title": "Leading Supply Solution",
+      "description": "Unisun 2019-cu ildə təsis olunub və Gürcüstanda fəaliyyət göstərir.",
+      "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
+      "description1": "Leading Supply Solutions, 2013 yılından bu yana faaliyet göstermekte olup, 2021 yılından itibaren Anonim Şirket statüsüne geçerek pazardaki konumunu daha da güçlendirmiştir. Şirket, özel sektör toptan satış faaliyetlerinin yanı sıra, ara mamullerin ve geniş bir ürün yelpazesinin toptan satışına yönelik acentelik hizmetleri de vermektedir.",
+      "description2": "Profesyonel yaklaşımı ve geniş ortaklık ağıyla Leading Supply Solutions, müşterilerine güvenilir ve esnek çözümler sunuyor."
+    }
+  },
+  "companyTabs": {
+    "missionVision": "Misyon ve Vizyon",
+    "timeline": "Tarihçe",
+    "aboutCompany": "Şirketler Hakkında"
+  },
+  "popupText": {
+    "title": "Bu Şirket Hakkında"
+  },
+  "missionVision": {
+    "title": "Misyon ve Vizyon",
+    "description": "Şirketimizi yönlendiren temel misyon, stratejik hedefler ve temel değerler."
+  },
+  "timeline": {
+    "title": "Şirket Tarihçesi",
+    "description": "1998'den itibaren şirketimizin yolculuğundaki önemli kilometre taşları ve başarılar.",
+    "events": {
+      "1998": {
+        "title": "Şirketin Kuruluşu",
+        "description": "Universal Group, Universal Makina adıyla kuruldu ve resmi distribütör olarak faaliyete başladı."
+      },
+      "2005": {
+        "title": "Pazar Genişlemesi",
+        "description": "Faaliyetler genişletildi ve büyük uluslararası markalarla ortaklıklar kuruldu."
+      },
+      "2012": {
+        "title": "Azlift'in Kurulması",
+        "description": "Kaldırma ekipmanları ve hava platformlarının kiralama ve satışı için Azlift bölümü kuruldu."
+      },
+      "2013": {
+        "title": "Yeniden Markalaşma",
+        "description": "Universal Group adıyla yeniden markalaştı ve B2B/B2G faaliyetleri önemli ölçüde genişletildi."
+      },
+      "2018": {
+        "title": "Dijital Dönüşüm",
+        "description": "Modern dijital sistemler uygulandı ve çevrimiçi varlık genişletildi."
+      },
+      "2020": {
+        "title": "AZ Global'in Kurulması",
+        "description": "Uluslararası ticaret ve lojistik operasyonları için AZ Global LLC kuruldu."
+      },
+      "2025": {
+        "title": "Gelecek Vizyonu",
+        "description": "1200+ tedarikçi ve 150+ kurumsal müşteriyle sürekli büyüme."
+      }
+    },
+    "stats": {
+      "experience": "Yıllık Deneyim",
+      "suppliers": "Uluslararası Tedarikçi",
+      "clients": "Kurumsal Müşteri",
+      "projects": "Tamamlanan Proje"
+    }
+  },
+  "aboutCompany": {
+    "title": "Şirketimiz Hakkında",
+    "description": "Şirket yapımız, avantajlarımız ve bağlı şirketlerimiz hakkında daha fazla bilgi edinin."
+  },
+  "top5Projects": {
+    "title": "En İyi 5 Projemiz",
+    "description": "Yeteneklerimizi ve uzmanlığımızı gösteren en önemli ve başarılı projelerimiz.",
+    "viewDetails": "Detayları Görüntüle",
+    "viewAllProjects": "Tüm Projeleri Görüntüle"
+  },
+  "openModal": {
+    "sectionTitle": "Açık Pozisyonlar",
+    "sectionDescription": "Şu anda aşağıdaki pozisyonlar için başvuru kabul edilmektedir",
+    "applyButton": "Başvur",
+    "watchVacationsButton": "İş İlanlarını İzle",
+    "modalTitle": "İş Başvurusu",
+    "fullName": "Tam Ad",
+    "fullNamePlaceholder": "Tam adınızı girin",
+    "email": "E-posta",
+    "emailPlaceholder": "E-posta adresinizi girin",
+    "phone": "Telefon",
+    "phonePlaceholder": "Telefon numaranızı girin",
+    "mission": "Pozisyon",
+    "missionPlaceholder": "Başvurduğunuz pozisyon",
+    "aboutYou": "Hakkınızda Daha Fazla",
+    "aboutYouPlaceholder": "Kendiniz hakkında, deneyiminiz ve bu pozisyona neden ilgi duyduğunuz hakkında bize anlatın...",
+    "shareButton": "Paylaş",
+    "cancelButton": "İptal"
+  },
+  "banners": {
+    "company": {
+      "tag": "Hakkımızda",
+      "title": "Hakkımızda",
+      "description": ""
+    },
+    "team": {
+      "tag": "Ekibimiz",
+      "title": "Ekibimiz",
+      "description": "Profesyonel ve deneyimli uzmanlardan oluşan ekibimiz, müşterilerimize en yüksek kaliteli hizmetleri sunmak için sürekli çalışmaktadır. Her ekip üyesi kendi alanında uzman seviyesinde bilgi ve deneyime sahiptir."
+    },
+    "projects": {
+      "tag": "Projelerimiz",
+      "title": "Projelerimiz",
+      "description": "25 yıllık deneyimle hayata geçirdiğimiz büyük ölçekli endüstriyel projeler. Çeşitli alanlarda başarıyla tamamladığımız projeler profesyonelliğimizin ve güvenilirliğimizin göstergesidir."
+    },
+    "partners": {
+      "tag": "Ortaklarımız",
+      "title": "Ortaklarımız",
+      "description": "Universal Group yıllardır dünyanın önde gelen markaları ile güvenilir işbirliği kurmaktadır. Bu ortaklıklar sayesinde müşterilerimize yüksek kaliteli ürünler ve kusursuz hizmet sunuyoruz."
+    },
+    "clients": {
+      "tag": "Müşterilerimiz",
+      "title": "Müşterilerimiz",
+      "description": "Müşterilerimiz gücümüzün temel göstergesidir. Universal Group, devlet kurumları, petrol-gaz, inşaat ve diğer stratejik sektörlerde faaliyet gösteren şirketlerin güvenilir ortağıdır."
+    },
+    "vacations": {
+      "tag": "Kariyer",
+      "title": "Bizimle Çalışın",
+      "description": "Universal Group'ta kariyerinizi geliştirin ve profesyonel ekibimizin bir parçası olun",
+      "sectionTitle": "Açık Pozisyonlar",
+      "sectionDescription": "Şu anda aşağıdaki pozisyonlar için başvuru kabul edilmektedir",
+      "requirements": "Gereksinimler:",
+      "advantages": "Avantajlar:",
+      "applyButton": "Başvur",
+      "noVacancies": "Şu anda açık pozisyon bulunmamaktadır",
+      "noVacanciesDescription": "Yeni pozisyonlar hakkında bilgi almak için bizimle iletişime geçin.",
+      "modal": {
+        "title": "İş Başvurusu - {position}",
+        "fullName": "Ad Soyad",
+        "fullNamePlaceholder": "Ad ve soyadınızı girin",
+        "email": "E-posta",
+        "emailPlaceholder": "E-posta adresinizi girin",
+        "phone": "Telefon",
+        "phonePlaceholder": "Telefon numaranızı girin",
+        "position": "Pozisyon",
+        "positionPlaceholder": "Başvurduğunuz pozisyon",
+        "aboutYou": "Hakkınızda",
+        "aboutYouPlaceholder": "Kendiniz, deneyiminiz ve bu pozisyona neden ilgi duyduğunuz hakkında bize bilgi verin...",
+        "submitButton": "Gönder",
+        "cancelButton": "İptal"
+      }
+    },
+    "products": {
+      "tag": "Ürünler",
+      "title": "Ürünlerimiz",
+      "description": "Endüstriyel ve inşaat sektörleri için geniş ürün yelpazesi"
+    },
+    "services": {
+      "tag": "Hizmetlerimiz",
+      "title": "Hizmetlerimiz",
+      "description": "25 yıllık deneyimle uluslararası seviyede tedarik çözümleri ve profesyonel hizmetler sunuyoruz. Müşterilerimizin ihtiyaçlarını en yüksek kalitede karşılıyoruz."
+    },
+    "contact": {
+      "tag": "İletişim",
+      "title": "Bizimle İletişime Geçin",
+      "description": "Sorularınız mı var? Ekibimiz size yardımcı olmaya hazır. Bizimle iletişime geçin ve projelerinizi tartışalım."
+    }
+  }
+}
