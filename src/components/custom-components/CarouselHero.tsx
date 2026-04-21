@@ -5,7 +5,7 @@ import Link from "next/link";
 import { CarouselSlide } from "@/types";
 import { defaultSlides } from "@/lib/data";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 
 const CarouselHero = ({
   locale,
@@ -14,7 +14,7 @@ const CarouselHero = ({
   locale: string;
   slides?: CarouselSlide[];
 }) => {
-  const t = useTranslations('hero');
+  const t = useTranslations("hero");
   const [isVisible, setIsVisible] = useState(false);
   const [videoLoaded, setVideoLoaded] = useState(false);
 
@@ -45,6 +45,8 @@ const CarouselHero = ({
           autoPlay
           loop
           playsInline
+          muted 
+          preload="none"
           controls={false}
           onLoadedData={handleVideoLoaded}
           style={{ filter: "brightness(0.7)" }}
@@ -73,13 +75,12 @@ const CarouselHero = ({
         >
           {/* Main headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white mb-6 leading-tight text-left mt-20 sm:mt-0">
-            {t('title1')}{" "}
-            <span className="text-[#ffe500]">{t('title2')}</span>
+            {t("title1")} <span className="text-[#ffe500]">{t("title2")}</span>
           </h1>
 
           {/* Description */}
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-8 max-w-2xl font-light leading-relaxed text-left">
-            {t('description')}
+            {t("description")}
           </p>
 
           {/* CTA Button */}
@@ -88,13 +89,13 @@ const CarouselHero = ({
               href={`/${locale}/products`}
               className="group border-2 border-[#ffe500]/30 hover:border-primary text-[#ffe500] hover:text-primary font-medium px-8 py-4 rounded-lg backdrop-blur-sm transition-all duration-300 hover:bg-[#ffe500] hover:scale-105 hover:text-[#040404]"
             >
-              {t('ctaText2')}
+              {t("ctaText2")}
             </Link>
             <Link
               href={`/${locale}/contact-us`}
               className="group border-2 border-[#ffe500]/30 hover:border-primary text-[#040404] hover:text-primary font-medium px-8 py-4 rounded-lg bg-[#ffe500] backdrop-blur-sm transition-all duration-300 hover:scale-105"
             >
-              {t('ctaText')}
+              {t("ctaText")}
             </Link>
           </div>
           <div className="bg-black/40 bg-opacity-40 backdrop-blur-sm rounded-lg p-6 max-w-5xl">
@@ -102,13 +103,13 @@ const CarouselHero = ({
               {/* Location - Order 3 on mobile, Order 1 on lg */}
               <div className="flex items-center gap-2 text-sm text-white order-3 lg:order-1">
                 <MapPin className="h-4 w-4 text-[#ffe500] flex-shrink-0" />
-                <span className="font-medium text-base">{t('location')}</span>
+                <span className="font-medium text-base">{t("location")}</span>
               </div>
 
               {/* Copyright - Order 1 on mobile, Order 2 on lg */}
               <div className="text-center order-1 lg:order-2">
                 <p className="text-base text-white font-medium">
-                  {t('copyright')}
+                  {t("copyright")}
                 </p>
               </div>
 
@@ -117,18 +118,18 @@ const CarouselHero = ({
                 {/* Email */}
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-[#ffe500] flex-shrink-0" />
-                  <span className="font-medium text-base">{t('email')}</span>
+                  <span className="font-medium text-base">{t("email")}</span>
                 </div>
 
                 {/* Phone Numbers */}
                 <div className="flex items-center gap-4">
                   <div className="flex items-center gap-2">
                     <Phone className="h-4 w-4 text-[#ffe500] flex-shrink-0" />
-                    <span className="font-medium text-base">{t('phone1')}</span>
+                    <span className="font-medium text-base">{t("phone1")}</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="h-4 w-4 text-[#ffe500] flex-shrink-0" />
-                    <span className="font-medium text-base">{t('phone2')}</span>
+                    <span className="font-medium text-base">{t("phone2")}</span>
                   </div>
                 </div>
               </div>
