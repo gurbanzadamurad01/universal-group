@@ -1,0 +1,59 @@
+{
+  "chatbot": {
+    "faq": [
+      {
+        "id": "q1",
+        "question": "Axtardığım məhsulu necə sifariş edə bilərəm?",
+        "answer": "Məhsulu sifariş etmək üçün bizə info@universal-az.com email ünvanı vasitəsilə müraciət edə bilərsiniz."
+      },
+      {
+        "id": "q2",
+        "question": "Hansı brendlərlə işləyirsiniz?",
+        "answer": "Əməkdaşlıq etdiyimiz brendlərlə tanış olmaq üçün Partnyorlar bölməsinə keçid edə bilərsiniz."
+      },
+      {
+        "id": "q3",
+        "question": "Texniki spesifikasiyaya uyğun məhsul tapa bilərsiniz?",
+        "answer": "Bəli, təqdim etdiyiniz texniki tələblərə uyğun məhsulların tapılması üçün bazar araşdırması aparır və sizə ən uyğun variantları təqdim edirik."
+      },
+      {
+        "id": "q4",
+        "question": "Qiymət təklifi nə qədər müddət keçərli olur?",
+        "answer": "Qiymət təkliflərinin keçərlilik müddəti layihə və məhsuldan asılı olaraq dəyişir. Ətraflı məlumat üçün bizimlə əlaqə saxlayın."
+      },
+      {
+        "id": "q5",
+        "question": "Beynəlxalq təchizat mümkündür?",
+        "answer": "Bəli, beynəlxalq təchizat mümkündür. Geniş tərəfdaş şəbəkəmiz haqqında məlumat almaq üçün Tərəfdaşlarımız bölməsinə baxa bilərsiniz."
+      },
+      {
+        "id": "q6",
+        "question": "Təcili sifarişlər üçün xidmətiniz varmı?",
+        "answer": "Bəli, mümkün olduğu hallarda təcili sifarişlər üçün operativ həllər təqdim edirik. Ətraflı məlumat üçün sorğunuzu paylaşın."
+      },
+      {
+        "id": "q7",
+        "question": "Şirkətinizlə necə əməkdaşlıq edə bilərik?",
+        "answer": "Əməkdaşlıq üçün sorğunuzu bizə göndərə bilərsiniz. Komandamız sizinlə əlaqə saxlayaraq mümkün əməkdaşlıq imkanlarını müzakirə edəcək."
+      },
+      {
+        "id": "q8",
+        "question": "Əməkdaşlarınızla birbaşa əlaqə saxlamaq istəyirəm",
+        "answer": "Zəhmət olmasa əlaqə məlumatlarınızı və müraciətinizi qeyd edin, sizi aidiyyəti əməkdaşımıza yönləndirək."
+      },
+      {
+        "id": "q9",
+        "question": "CV göndərmək istəyirəm",
+        "answer": "CV-nizi hr@universal-az.com ünvanına göndərə bilərsiniz. İnsan Resursları komandamız tərəfindən nəzərdən keçiriləcək."
+      }
+    ],
+    "ui": {
+      "title": "Universal Assistant",
+      "chooseQuestion": "Başlamaq üçün sual seçin",
+      "placeholder": "Mesaj yazın...",
+      "online": "Onlayn",
+      "offline": "Oflayn",
+      "typing": "yazır..."
+    }
+  }
+}

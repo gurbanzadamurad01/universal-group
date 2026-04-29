@@ -1,0 +1,59 @@
+{
+  "chatbot": {
+    "faq": [
+      {
+        "id": "q1",
+        "question": "Aradığım ürünü nasıl sipariş edebilirim?",
+        "answer": "Ürünü sipariş etmek için info@universal-az.com e-posta adresi üzerinden bizimle iletişime geçebilirsiniz."
+      },
+      {
+        "id": "q2",
+        "question": "Hangi markalarla çalışıyorsunuz?",
+        "answer": "Çalıştığımız markaları görmek için Ortaklar bölümünü ziyaret edebilirsiniz."
+      },
+      {
+        "id": "q3",
+        "question": "Teknik özelliklere uygun ürün bulabilir misiniz?",
+        "answer": "Evet, teknik gereksinimlerinize uygun ürünleri bulmak için pazar araştırması yapıyor ve en uygun seçenekleri sunuyoruz."
+      },
+      {
+        "id": "q4",
+        "question": "Fiyat teklifi ne kadar süre geçerlidir?",
+        "answer": "Fiyat tekliflerinin geçerlilik süresi projeye ve ürüne göre değişir. Detaylı bilgi için bizimle iletişime geçin."
+      },
+      {
+        "id": "q5",
+        "question": "Uluslararası tedarik mümkün mü?",
+        "answer": "Evet, uluslararası tedarik mümkündür. Geniş iş ortakları ağımız hakkında bilgi almak için Ortaklar bölümünü inceleyebilirsiniz."
+      },
+      {
+        "id": "q6",
+        "question": "Acil siparişler için hizmetiniz var mı?",
+        "answer": "Evet, mümkün olduğunda acil siparişler için hızlı çözümler sunuyoruz. Daha fazla bilgi için talebinizi iletin."
+      },
+      {
+        "id": "q7",
+        "question": "Şirketinizle nasıl iş birliği yapabiliriz?",
+        "answer": "İş birliği için talebinizi bize iletebilirsiniz. Ekibimiz sizinle iletişime geçerek olası iş birliği fırsatlarını değerlendirecektir."
+      },
+      {
+        "id": "q8",
+        "question": "Ekibinizle doğrudan iletişime geçmek istiyorum",
+        "answer": "Lütfen iletişim bilgilerinizi ve talebinizi paylaşın, sizi ilgili ekip üyemize yönlendirelim."
+      },
+      {
+        "id": "q9",
+        "question": "CV göndermek istiyorum",
+        "answer": "CV’nizi hr@universal-az.com adresine gönderebilirsiniz. İnsan Kaynakları ekibimiz tarafından değerlendirilecektir."
+      }
+    ],
+    "ui": {
+      "title": "Universal Assistant",
+      "chooseQuestion": "Başlamak için bir soru seçin",
+      "placeholder": "Mesaj yazın...",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı",
+      "typing": "yazıyor..."
+    }
+  }
+}

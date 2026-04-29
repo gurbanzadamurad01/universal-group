@@ -1,0 +1,59 @@
+{
+  "chatbot": {
+    "faq": [
+      {
+        "id": "q1",
+        "question": "How can I order the product I am looking for?",
+        "answer": "You can place an order by contacting us via email at info@universal-az.com."
+      },
+      {
+        "id": "q2",
+        "question": "Which brands do you work with?",
+        "answer": "You can explore our partner brands by visiting the Partners section."
+      },
+      {
+        "id": "q3",
+        "question": "Can you find products based on technical specifications?",
+        "answer": "Yes, we conduct market research to find products that match your technical requirements and present the most suitable options."
+      },
+      {
+        "id": "q4",
+        "question": "How long is the price offer valid?",
+        "answer": "The validity of price offers depends on the project and product. Please contact us for detailed information."
+      },
+      {
+        "id": "q5",
+        "question": "Do you offer international supply?",
+        "answer": "Yes, international supply is available. You can learn more about our global partners in the Partners section."
+      },
+      {
+        "id": "q6",
+        "question": "Do you provide urgent order services?",
+        "answer": "Yes, we provide fast solutions for urgent orders whenever possible. Please send us your request for more details."
+      },
+      {
+        "id": "q7",
+        "question": "How can we collaborate with your company?",
+        "answer": "You can send us your cooperation request, and our team will contact you to discuss possible collaboration opportunities."
+      },
+      {
+        "id": "q8",
+        "question": "I want to contact your team directly",
+        "answer": "Please provide your contact details and request, and we will direct you to the relevant team member."
+      },
+      {
+        "id": "q9",
+        "question": "I want to send my CV",
+        "answer": "You can send your CV to hr@universal-az.com. Our HR team will review it and contact you if there is a suitable position."
+      }
+    ],
+    "ui": {
+      "title": "Universal Assistant",
+      "chooseQuestion": "Choose a question to start",
+      "placeholder": "Type a message...",
+      "online": "Online",
+      "offline": "Offline",
+      "typing": "typing..."
+    }
+  }
+}
