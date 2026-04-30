@@ -37,7 +37,6 @@ export default async function RootLayout({
   
   // Get messages for client-side translations
   const messages = await getMessages();
-
   return (
     <html lang={locale}>
       <body className={`${montserrat.className} antialiased`}>

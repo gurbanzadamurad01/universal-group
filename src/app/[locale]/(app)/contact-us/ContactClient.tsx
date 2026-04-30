@@ -30,7 +30,6 @@ interface ContactClientProps {
 
 const ContactClient: React.FC<ContactClientProps> = ({ locale }) => {
   const t = useTranslations('contact');
-
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",

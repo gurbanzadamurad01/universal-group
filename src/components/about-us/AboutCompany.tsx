@@ -138,7 +138,6 @@ const AboutCompany = () => {
       </AnimatedSection>
 
 
-
       {/* Leading Supply Solution Section */}
       <div className="relative py-20 overflow-hidden min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
@@ -298,7 +297,6 @@ const AboutCompany = () => {
             </div>
 
             {/* Right Side - Image */}
-
           </div>
         </div>
       </AnimatedSection>
