@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { Search, ExternalLink } from "lucide-react";
-import Image from "next/image";
 
 interface Partner {
   id: number;
@@ -136,7 +135,9 @@ const PartnersSection = ({ locale }: { locale: 'az' | 'en' | 'tr' }) => {
   });
 
   const handlePartnerClick = (website: string) => {
-    window.open(website, "_blank", "noopener,noreferrer");
+    if (typeof window !== "undefined") {
+      window.open(website, "_blank", "noopener,noreferrer");
+    }
   };
 
   const translations = {

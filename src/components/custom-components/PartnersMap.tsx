@@ -109,7 +109,7 @@ function MarkerWithHover({
         <Marker
             ref={markerRef}
             position={partner.position as [number, number]}
-            icon={createIcon(partner.companies, partner.city, index)}
+            icon={createIcon(partner.companies, partner.city)}
         />
     );
 }
