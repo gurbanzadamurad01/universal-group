@@ -33,7 +33,7 @@ const Banner: React.FC<Props> = ({ bannerKey, children }) => {
       <div className="banner-gradient animate-gradient-shift relative z-10">
         <div className="container mx-auto max-w-6xl pt-20">
           <div className="flex flex-col items-center text-center">
-            <TagComponent text={t('tag')} icon={Tag} />
+            <TagComponent text={t('tag')} icon={Tag} className="text-white"/>
             <h1
               className={`text-5xl md:text-7xl font-bold text-white mb-6 mx-auto ${
                 isVisible

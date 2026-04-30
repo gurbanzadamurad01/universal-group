@@ -88,8 +88,8 @@
   },
   "footer": {
     "tagline": "Perspektiflerinizi Genişletin",
-    "description": "25 yıllık deneyimle uluslararası düzeyde tedarik çözümleri sunan onlarca yıllık ortağınız. Geniş ürün yelpazesi ve profesyonel hizmetlerle müşterilerimizin ihtiyaçlarını en üst düzeyde karşılıyoruz.",
-    "experienceYears": "25 yıllık deneyim",
+    "description": "<years></years> uluslararası düzeyde tedarik çözümleri sunan onlarca yıllık ortağınız. Geniş ürün yelpazesi ve profesyonel hizmetlerle müşterilerimizin ihtiyaçlarını en üst düzeyde karşılıyoruz.",
+    "experienceYears": "25 yıllık deneyimle",
     "location": "Azerbaycan",
     "company": "Şirket",
     "aboutUs": "Hakkımızda",
@@ -103,12 +103,12 @@
     "clients": "Müşteriler",
     "clientsDesc": "Ortaklarımız",
     "contact": "İletişim",
+    "address": "A.A. Bakıhanov cad. 3, Hyatt Regency, Tower 1, kat 2",
     "office": "Ofis",
+    "email": "E-posta",
+    "copyright": "© 2026 Universal Group. Tüm hakları saklıdır.",
     "mobile": "Mobil",
-    "email": "Email",
     "headquarters": "Genel merkez",
-    "address": "Bakü, Azerbaycan",
-    "copyright": "© 2025 Universal Group. Tüm hakları saklıdır.",
     "privacyPolicy": "Gizlilik Politikası",
     "termsOfUse": "Kullanım Şartları",
     "siteMap": "Site Haritası"
@@ -201,7 +201,7 @@
       "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
       "description1": "Leading Supply Solutions 2013 yılında kurulmuş olup petrol ve gaz sektöründe güçlü bir konum elde etmiştir. Kuruluşundan bu yana şirket, uluslararası standartlara uygun yüksek kaliteli, güvenilir ve performans odaklı tedarik çözümleri sunmaya odaklanmıştır.",
       "description2": "Leading Supply Solutions, uzmanlaşmamış toptan satış faaliyetlerinin yanı sıra ara ürünlerin ve geniş ürün portföyünün toptan satışı için acentelik hizmetleri sunmaktadır. Yapılandırılmış süreçler ve sektör deneyimi sayesinde şirket, operasyonlarında verimlilik, uyumluluk ve değer yaratımını sağlamaktadır.",
-      "description3":"Profesyonel yönetim anlayışı ve geniş stratejik iş ortaklıkları ağıyla desteklenen Leading Supply Solutions, müşterilerinin özel ihtiyaçlarına uygun esnek, hızlı ve müşteri odaklı çözümler sunmaktadır. Operasyonel mükemmeliyet, hızlı reaksiyon ve uzun vadeli iş birliğine verdiği önem, şirketi pazarda güvenilir bir iş ortağı konumuna getirmektedir."
+      "description3": "Profesyonel yönetim anlayışı ve geniş stratejik iş ortaklıkları ağıyla desteklenen Leading Supply Solutions, müşterilerinin özel ihtiyaçlarına uygun esnek, hızlı ve müşteri odaklı çözümler sunmaktadır. Operasyonel mükemmeliyet, hızlı reaksiyon ve uzun vadeli iş birliğine verdiği önem, şirketi pazarda güvenilir bir iş ortağı konumuna getirmektedir."
     }
   },
   "companyTabs": {

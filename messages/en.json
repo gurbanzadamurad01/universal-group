@@ -88,7 +88,7 @@
   },
   "footer": {
     "tagline": "Expand Your Perspectives",
-    "description": "Your partner for decades with 25 years of experience providing international-level supply solutions. We meet our customers' needs at the highest level with a wide range of products and professional services.",
+    "description": "Your partner for decades with <years></years> providing international-level supply solutions. We meet our customers' needs at the highest level with a wide range of products and professional services.",
     "experienceYears": "25 years of experience",
     "location": "Azerbaijan",
     "company": "Company",
@@ -103,12 +103,12 @@
     "clients": "Clients",
     "clientsDesc": "Our partners",
     "contact": "Contact",
-    "office": "Office",
     "mobile": "Mobile",
+    "address": "A.A Bakikhanov ave 3. Hyatt Regency, Tower 1. 2nd floor",
+    "office": "Office",
     "email": "Email",
+    "copyright": "© 2026 Universal Group. All rights reserved.",
     "headquarters": "Headquarters",
-    "address": "Baku, Azerbaijan",
-    "copyright": "© 2025 Universal Group. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
     "termsOfUse": "Terms of Use",
     "siteMap": "Site Map"
@@ -120,7 +120,7 @@
   },
   "company": {
     "bannerContent": {
-      "mainParagraph":"Today Universal Group QSC is a reliable partner of government institutions, oil and gas industry, construction and shipping sectors. Behind the major projects of our 150+ active corporate clients stands our strength, agility and flawless service model.",
+      "mainParagraph": "Today Universal Group QSC is a reliable partner of government institutions, oil and gas industry, construction and shipping sectors. Behind the major projects of our 150+ active corporate clients stands our strength, agility and flawless service model.",
       "paragraph1": "Our company has been operating under the name \"Universal Pro\" since 2016. Thanks to the experience and international relations gained over many years, we have become one of the leading supply companies in the country.",
       "paragraph2": "Our company, which operates on a large scale in the B2B and B2G segments, works with more than 1,200 international suppliers and has a wide product portfolio. 70% of the supply is from abroad and 30% from the local market.",
       "mainParagraph1": "Founded in 1998, our company initially operated under the name “Universal Makina.” Since 2016, we have continued our activities under the brand “Universal Pro.”\n\nOver the years, through accumulated experience, strong international partnerships, and a customer-focused approach, we have grown into one of the leading supply companies in the country.",
@@ -204,7 +204,7 @@
       "mainText": "AZ GLOBAL LLC ÇEŞİTLİ PROJELERİN KATILAN ÇEVİK TEDARİK VE MÜHENDİSLİK ŞİRKETİDİR",
       "description1": "Leading Supply Solutions was established in 2013 and has built a strong presence in the oil and gas sector. Since its inception, the company has been committed to delivering high-quality, reliable, and performance-driven supply solutions that meet international standards.",
       "description2": "Leading Supply Solutions operates across non-specialized wholesale activities while also providing agency services for the wholesale of intermediate products and a diverse portfolio of goods. Through structured processes and industry expertise, the company ensures efficiency, compliance, and value creation across its operations.",
-      "description3":"Backed by a professional management approach and an extensive network of strategic partnerships, Leading Supply Solutions delivers customer-focused, flexible, and timely solutions tailored to the specific requirements of its clients. The company’s commitment to operational excellence, responsiveness, and long-term collaboration positions it as a trusted partner in the market."
+      "description3": "Backed by a professional management approach and an extensive network of strategic partnerships, Leading Supply Solutions delivers customer-focused, flexible, and timely solutions tailored to the specific requirements of its clients. The company’s commitment to operational excellence, responsiveness, and long-term collaboration positions it as a trusted partner in the market."
     }
   },
   "companyTabs": {
@@ -261,11 +261,11 @@
     "description": "Learn more about our company structure, advantages, and subsidiary companies."
   },
   "top5Projects": {
-     "title": "Our Top 5 Projects",
-     "description": "Showcasing our most significant and successful projects that demonstrate our capabilities and expertise.",
-     "viewDetails": "View Details",
-     "viewAllProjects": "View All Projects"
-   },
+    "title": "Our Top 5 Projects",
+    "description": "Showcasing our most significant and successful projects that demonstrate our capabilities and expertise.",
+    "viewDetails": "View Details",
+    "viewAllProjects": "View All Projects"
+  },
   "openModal": {
     "sectionTitle": "Open Positions",
     "sectionDescription": "Applications are currently being accepted for the following positions",
@@ -323,22 +323,22 @@
       "noVacancies": "No open positions currently",
       "noVacanciesDescription": "Contact us to get information about new vacancies.",
       "modal": {
-      "title": "Job Application - {position}",
-      "fullName": "Full Name",
-      "fullNamePlaceholder": "Enter your full name",
-      "email": "Email",
-      "emailPlaceholder": "Enter your email address",
-      "phone": "Phone",
-      "phonePlaceholder": "Enter your phone number",
-      "position": "Position",
-      "positionPlaceholder": "Position you're applying for",
-      "aboutYou": "More About You",
-      "aboutYouPlaceholder": "Tell us more about yourself, your experience, and why you're interested in this position...",
-      "submitButton": "Submit",
-      "cancelButton": "Cancel"
-    }
-  },
-  "products": {
+        "title": "Job Application - {position}",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "Enter your full name",
+        "email": "Email",
+        "emailPlaceholder": "Enter your email address",
+        "phone": "Phone",
+        "phonePlaceholder": "Enter your phone number",
+        "position": "Position",
+        "positionPlaceholder": "Position you're applying for",
+        "aboutYou": "More About You",
+        "aboutYouPlaceholder": "Tell us more about yourself, your experience, and why you're interested in this position...",
+        "submitButton": "Submit",
+        "cancelButton": "Cancel"
+      }
+    },
+    "products": {
       "tag": "Products",
       "title": "Our Products",
       "description": "Wide range of products for industrial and construction sectors"

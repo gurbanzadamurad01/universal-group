@@ -60,16 +60,13 @@ const Footer: React.FC<FooterProps> = ({ locale }) => {
               </div>
 
               <p className="text-gray-300 text-base leading-relaxed">
-                {t('description').split(t('experienceYears')).map((part, index) => (
-                  <span key={index}>
-                    {index === 0 && (
-                      <span className="text-yellow-400 font-semibold">
-                        {t('experienceYears')}
-                      </span>
-                    )}
-                    {part}
-                  </span>
-                ))}
+                {t.rich('description', {
+                  years: (chunks) => (
+                    <span className="text-yellow-400 font-semibold">
+                      {t('experienceYears') + " " + chunks}
+                    </span>
+                  )
+                })}
               </p>
 
               <div className="flex space-x-4">
@@ -151,17 +148,14 @@ const Footer: React.FC<FooterProps> = ({ locale }) => {
               </h4>
               <div className="space-y-4">
                 {[
-                  { icon: Phone, text: "+994 12 555-55-55", label: t('office') },
-                  { icon: Phone, text: "+994 51 555-55-55", label: t('mobile') },
-                  {
-                    icon: Mail,
-                    text: "info@universalgroup.az",
-                    label: t('email'),
-                  },
+                  { icon: Phone, text: "+994 12 526 66 55", label: t('office'), href: "tel:+994125266655" },
+                  { icon: Phone, text: "+994 51 555 05 55", label: t('mobile'), href: "tel:+994515550555" },
+                  { icon: Mail, text: "info@universal-az.com", label: t('email'), href: "mailto:info@universal-az.com" },
                 ].map((item, index) => (
-                  <div
+                  <a
                     key={index}
-                    className="group flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-600/30 transition-all duration-300 cursor-pointer"
+                    href={item.href}
+                    className="group flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-600/30 transition-all duration-300"
                   >
                     <div className="p-2 rounded-lg bg-yellow-500/20 group-hover:bg-yellow-500 transition-all duration-300">
                       <item.icon className="w-4 h-4 text-yellow-400 group-hover:text-black transition-colors" />
@@ -172,18 +166,19 @@ const Footer: React.FC<FooterProps> = ({ locale }) => {
                       </p>
                       <p className="text-sm text-gray-500">{item.label}</p>
                     </div>
-                  </div>
+                  </a>
                 ))}
 
+                {/* Address Section */}
                 <div className="group flex items-start space-x-4 p-3 rounded-lg hover:bg-gray-600/30 transition-all duration-300">
                   <div className="p-2 rounded-lg bg-yellow-500/20 group-hover:bg-yellow-500 transition-all duration-300">
                     <MapPin className="w-4 h-4 text-yellow-400 group-hover:text-black transition-colors" />
                   </div>
                   <div>
-                    <p className="text-gray-300 group-hover:text-white text-sm font-medium transition-colors">
+                    <p className="text-gray-300 group-hover:text-white text-sm font-medium transition-colors leading-relaxed">
                       {t('address')}
                     </p>
-                    <p className="text-xs text-gray-500">{t('headquarters')}</p>
+                    <p className="text-xs text-gray-500 mt-1">{t('headquarters')}</p>
                   </div>
                 </div>
               </div>
