@@ -84,7 +84,7 @@ const ClientsSection = ({ locale }: { locale: "az" | "en" | "tr" }) => {
     },
     {
       id: 8,
-      title: { az: "Azfen BM", en: "Azfen JV", en: "Azfen OG" },
+      title: { az: "Azfen BM", en: "Azfen JV", tr: "Azfen OG" },
       category: { az: "Neft və Qaz", en: "Oil and Gas", tr: "Petrol ve Gaz" },
       company: { az: "“Azfen” Birgə Müəssisəsi", en: "Azfen Joint Venture", tr: "Azfen Ortak Girişimi" },
       status: { az: "Əsas Müştəri", en: "Main Customer", tr: "Ana Müşteri" },
