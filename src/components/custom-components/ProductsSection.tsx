@@ -205,27 +205,7 @@ const ProductsSection = ({ locale }: { locale: string }) => {
       startDate: "2012",
       endDate: "2015",
       services: ["Mühəndislik", "Quraşdırma"],
-    },
-    {
-      id: 10,
-      company: "Pasha Construction",
-      title: {
-        az: "Yaşayış və Biznes Mərkəzləri",
-        en: "Residential and Business Centers",
-        tr: "Konut ve İş Merkezleri",
-      },
-      description: {
-        az: "Şəhərin müasir simasını formalaşdıran premium tikinti layihələri.",
-        en: "Premium construction projects shaping the modern face of the city.",
-        tr: "Şehrin modern yüzünü şekillendiren premium inşaat projeleri.",
-      },
-      image: "/projects/pasha_const.png", // Generate etdiyimiz 2-ci şəkli bura qoyarsan
-      status: { az: "Davam edir", en: "Ongoing", tr: "Devam Ediyor" },
-      location: { az: "Bakı", en: "Baku", tr: "Bakü" },
-      startDate: "2023",
-      endDate: "2026",
-      services: ["Tikinti", "İdarəetmə"],
-    },
+    }
   ];
 
   return (

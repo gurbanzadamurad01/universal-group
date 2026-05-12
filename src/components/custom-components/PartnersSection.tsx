@@ -180,7 +180,7 @@ const PartnersSection = ({ locale }: { locale: 'az' | 'en' | 'tr' }) => {
                     src={partner.logo}
                     alt={`${partner.name} logo`}
                     // Kəskinlik üçün `object-contain` və max-height/width istifadəsi
-                    className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="max-w-full max-h-full object-contain filter transition-all duration-300"
                     loading="lazy"
                     onError={(e) => {
                       // Fallback: Əgər link qırılarsa, ui-avatars istifadə et
